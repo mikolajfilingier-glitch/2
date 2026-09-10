@@ -1,0 +1,59 @@
+name: Zbieraj oferty
+
+on:
+  schedule:
+    - cron: "10 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: zbieranie
+  cancel-in-progress: false
+
+jobs:
+  zbierz:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v4
+
+      - name: Ustaw Pythona
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Zainstaluj zależności
+        run: pip install -r scraper/requirements.txt
+
+      - name: Testy parserów
+        run: python scraper/test_parsery.py
+
+      - name: Zbierz oferty
+        id: zbieranie
+        continue-on-error: true
+        run: python scraper/scrape.py
+
+      - name: Zapisz wynik w repozytorium
+        run: |
+          if git diff --quiet -- docs/data.json; then
+            echo "Bez zmian w data.json — nic do zapisania."
+            exit 0
+          fi
+          git config user.name  "bot-przetargi"
+          git config user.email "bot-przetargi@users.noreply.github.com"
+          git add docs/data.json
+          LICZBA=$(python -c "import json;print(len(json.load(open('docs/data.json'))['oferty']))")
+          git commit -m "Aktualizacja ofert: ${LICZBA} w puli ($(date -u +%Y-%m-%d))"
+          git push
+
+      - name: Zgłoś niepowodzenie zbierania
+        if: steps.zbieranie.outcome == 'failure'
+        run: |
+          echo "::warning::Skrypt zbierający zakończył się błędem."
+          echo "Poprzednie dane zostały zachowane, strona nadal działa."
+          exit 1
