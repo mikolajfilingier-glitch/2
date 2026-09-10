@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#12222e">
+<title>Licytacje mieszkań — aglomeracja śląska</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Narrow:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --tlo:#eef1f3;
+    --plyta:#ffffff;
+    --tusz:#12222e;
+    --tusz-slaby:#5c7183;
+    --stal:#c3ced6;
+    --stal-slaba:#dde4e9;
+    --dobra:#1f7a52;
+    --dobra-tlo:#e4f1eb;
+    --uwaga:#8a5a08;
+    --uwaga-tlo:#fbeeda;
+    --ryzyko:#a52f3c;
+    --ryzyko-tlo:#fae7e9;
+    --nieznane:#6b7b88;
+    --nieznane-tlo:#e6eaed;
+    --nowa:#0e5c8a;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:var(--tlo);
+    color:var(--tusz);
+    font:400 16px/1.5 Archivo, system-ui, sans-serif;
+    font-variant-numeric:tabular-nums;
+  }
+  .otoczka{max-width:780px;margin:0 auto;padding:0 14px 64px}
+
+  /* nagłówek: stan przebiegu jest tu najważniejszą informacją */
+  .szczyt{padding:22px 0 16px;border-bottom:2px solid var(--tusz)}
+  .szczyt h1{
+    margin:0 0 10px;
+    font:700 25px/1.15 "Archivo Narrow", Archivo, sans-serif;
+    letter-spacing:-0.01em;
+  }
+  .stan{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;color:var(--tusz-slaby)}
+  .stan b{color:var(--tusz);font-weight:600}
+  .alarm{
+    margin:14px 0 0;padding:11px 13px;border-left:4px solid var(--ryzyko);
+    background:var(--ryzyko-tlo);color:var(--ryzyko);font-size:14px;border-radius:0 4px 4px 0;
+  }
+
+  /* filtry */
+  .filtry{display:flex;flex-wrap:wrap;gap:7px;padding:15px 0 4px}
+  .filtry button{
+    font:500 14px Archivo,sans-serif;color:var(--tusz-slaby);
+    background:transparent;border:1px solid var(--stal);border-radius:999px;
+    padding:6px 13px;cursor:pointer;
+  }
+  .filtry button[aria-pressed="true"]{
+    background:var(--tusz);border-color:var(--tusz);color:#fff;
+  }
+  .filtry button:focus-visible,.oferta summary:focus-visible,.akcje a:focus-visible,
+  .oznacz button:focus-visible{outline:2px solid var(--nowa);outline-offset:2px}
+
+  /* lista ofert: wiersze, nie identyczne karty */
+  .lista{margin:12px 0 0;padding:0;list-style:none}
+  .oferta{
+    background:var(--plyta);margin:0 0 9px;border:1px solid var(--stal-slaba);
+    border-left:5px solid var(--nieznane);border-radius:3px;
+  }
+  .oferta[data-ocena="dobra"]{border-left-color:var(--dobra)}
+  .oferta[data-ocena="uwaga"]{border-left-color:var(--uwaga)}
+  .oferta[data-ocena="ryzyko"]{border-left-color:var(--ryzyko)}
+  .oferta[data-status="odrzucona"]{opacity:.5}
+
+  .oferta summary{
+    display:block;padding:12px 14px;cursor:pointer;list-style:none;
+  }
+  .oferta summary::-webkit-details-marker{display:none}
+  .gora{display:flex;align-items:baseline;gap:10px}
+  /* cena za m² decyduje o wszystkim w tym biznesie, więc dostaje najwięcej wagi */
+  .za-m2{
+    font:700 27px/1 "Archivo Narrow",Archivo,sans-serif;white-space:nowrap;
+  }
+  .za-m2 span{font-size:13px;font-weight:600;color:var(--tusz-slaby)}
+  .gdzie{flex:1;min-width:0;font-size:15px;font-weight:600}
+  .gdzie i{display:block;font-style:normal;font-weight:400;font-size:13px;color:var(--tusz-slaby);
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .dol{display:flex;flex-wrap:wrap;gap:5px 14px;margin-top:9px;font-size:13.5px;color:var(--tusz-slaby)}
+  .dol b{color:var(--tusz);font-weight:600}
+  .znaczki{display:flex;flex-wrap:wrap;gap:5px;margin-top:9px}
+  .znaczek{font-size:12px;font-weight:600;padding:2px 8px;border-radius:3px}
+  .z-nowa{background:#e2eef6;color:var(--nowa)}
+  .z-perelka{background:var(--uwaga-tlo);color:var(--uwaga)}
+  .z-pilne{background:var(--ryzyko-tlo);color:var(--ryzyko)}
+  .z-status{background:var(--stal-slaba);color:var(--tusz)}
+  .z-braki{background:var(--nieznane-tlo);color:var(--nieznane)}
+
+  /* rozwinięcie */
+  .srodek{padding:2px 14px 14px;border-top:1px solid var(--stal-slaba);margin-top:2px}
+  .flaga{display:flex;gap:9px;padding:9px 11px;border-radius:3px;margin:11px 0 0;font-size:13.5px;line-height:1.45}
+  .f-dobra{background:var(--dobra-tlo);color:var(--dobra)}
+  .f-uwaga{background:var(--uwaga-tlo);color:var(--uwaga)}
+  .f-ryzyko{background:var(--ryzyko-tlo);color:var(--ryzyko)}
+  .f-brak{background:var(--nieznane-tlo);color:var(--nieznane)}
+  .flaga b{display:block;font-weight:600}
+  .opis{margin:12px 0 0;font-size:14px;line-height:1.55;color:#33475a;
+    max-height:8.6em;overflow:hidden;position:relative}
+  .opis.pelny{max-height:none}
+  .wiecej{background:none;border:0;padding:4px 0 0;font:500 13px Archivo,sans-serif;
+    color:var(--nowa);cursor:pointer;text-decoration:underline}
+  .tabelka{margin:12px 0 0;width:100%;border-collapse:collapse;font-size:13.5px}
+  .tabelka th{text-align:left;font-weight:400;color:var(--tusz-slaby);padding:3px 10px 3px 0;width:38%}
+  .tabelka td{padding:3px 0;font-weight:600}
+  .akcje{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0}
+  .akcje a{
+    font:600 13.5px Archivo,sans-serif;text-decoration:none;color:var(--tusz);
+    border:1px solid var(--stal);border-radius:3px;padding:7px 12px;background:#fbfcfd;
+  }
+  .oznacz{display:flex;flex-wrap:wrap;gap:6px;margin:11px 0 0;
+    padding-top:11px;border-top:1px dashed var(--stal-slaba)}
+  .oznacz button{
+    font:500 13px Archivo,sans-serif;background:#fbfcfd;color:var(--tusz-slaby);
+    border:1px solid var(--stal);border-radius:3px;padding:6px 11px;cursor:pointer;
+  }
+  .oznacz button[aria-pressed="true"]{background:var(--tusz);border-color:var(--tusz);color:#fff}
+
+  /* źródła i pustka */
+  .zrodla{margin:26px 0 0;padding:16px;background:var(--plyta);
+    border:1px solid var(--stal-slaba);border-radius:3px}
+  .zrodla h2{margin:0 0 11px;font:600 15px Archivo,sans-serif}
+  .zrodla ul{margin:0;padding:0;list-style:none;font-size:13.5px;line-height:1.5}
+  .zrodla li{padding:7px 0;border-top:1px solid var(--stal-slaba)}
+  .zrodla li:first-child{border-top:0}
+  .zrodla i{font-style:normal;color:var(--tusz-slaby);display:block}
+  .kropka{font-weight:700}
+  .kropka.tak{color:var(--dobra)}
+  .kropka.nie{color:var(--ryzyko)}
+  .pusto{padding:36px 14px;text-align:center;color:var(--tusz-slaby);font-size:15px;line-height:1.6}
+  footer{margin:24px 0 0;font-size:12.5px;color:var(--tusz-slaby);line-height:1.6}
+
+  @media (max-width:420px){
+    .za-m2{font-size:23px}
+    .gdzie{font-size:14px}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<div class="otoczka">
+
+<header class="szczyt">
+  <h1>Licytacje mieszkań — aglomeracja śląska</h1>
+  <div class="stan" id="stan">Wczytywanie…</div>
+  <div id="alarm"></div>
+</header>
+
+<nav class="filtry" id="filtry" hidden>
+  <button data-widok="wszystkie" aria-pressed="true">Wszystkie</button>
+  <button data-widok="nowe" aria-pressed="false">Nowe</button>
+  <button data-widok="obserwuje" aria-pressed="false">Obserwuję</button>
+  <button data-widok="do_sprawdzenia" aria-pressed="false">Do obejrzenia</button>
+  <button data-widok="odrzucone" aria-pressed="false">Odrzucone</button>
+</nav>
+
+<ul class="lista" id="lista"></ul>
+<div class="pusto" id="pusto" hidden></div>
+
+<section class="zrodla" id="zrodla" hidden>
+  <h2>Skąd pochodzą dane</h2>
+  <ul id="zrodla-lista"></ul>
+</section>
+
+<footer>
+  Ceny to kwoty wywoławcze, nie końcowe. Lista zawęża rynek do kandydatów —
+  stan prawny, księgę wieczystą i stan lokalu trzeba sprawdzić samodzielnie
+  przed przystąpieniem do licytacji. Oznaczenia „obserwuję” i „odrzucona”
+  zapisują się tylko na tym urządzeniu.
+</footer>
+
+</div>
+
+<script>
+const FLAGI = {
+  zielona:  {klasa:"f-dobra",  ikona:"✓", nazwa:"Bez zastrzeżeń"},
+  zolta:    {klasa:"f-uwaga",  ikona:"!", nazwa:"Do sprawdzenia na miejscu"},
+  czerwona: {klasa:"f-ryzyko", ikona:"✕", nazwa:"Sygnał ostrzegawczy"},
+  brak:     {klasa:"f-brak",   ikona:"?", nazwa:"Brak danych"},
+};
+const WAGA = {zielona:0, zolta:1, brak:1, czerwona:10};
+const KLUCZ_STATUSOW = "przetargi:statusy";
+
+let dane = null;
+let widok = "wszystkie";
+let statusy = {};
+
+try { statusy = JSON.parse(localStorage.getItem(KLUCZ_STATUSOW) || "{}"); } catch (e) { statusy = {}; }
+
+function zapiszStatusy(){
+  try { localStorage.setItem(KLUCZ_STATUSOW, JSON.stringify(statusy)); } catch (e) { /* tryb prywatny */ }
+}
+
+const zl = n => n == null ? "❓" : n.toLocaleString("pl-PL") + " zł";
+const m2 = n => n == null ? "❓" : String(n).replace(".", ",") + " m²";
+
+function dniDo(iso){
+  if (!iso) return null;
+  const d = new Date(iso + "T12:00:00");
+  if (isNaN(d)) return null;
+  return Math.ceil((d - new Date()) / 86400000);
+}
+
+function terminSlownie(iso){
+  const dni = dniDo(iso);
+  if (dni == null) return "termin ❓";
+  if (dni < 0) return "termin minął";
+  if (dni === 0) return "licytacja dziś";
+  if (dni === 1) return "licytacja jutro";
+  return `za ${dni} dni`;
+}
+
+function ocenaWiersza(o){
+  const suma = (WAGA[o.flaga_budynek?.poziom] ?? 1) + (WAGA[o.flaga_okolica?.poziom] ?? 1);
+  if (suma >= 10) return "ryzyko";
+  if (suma === 0) return "dobra";
+  if (suma === 1) return "uwaga";
+  return "nieznane";
+}
+
+function esc(s){
+  return String(s ?? "").replace(/[&<>"']/g, c => (
+    {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]
+  ));
+}
+
+function mapaUrl(o){
+  const q = [o.adres, o.dzielnica, o.miasto].filter(Boolean).join(", ");
+  return "https://www.google.com/maps/search/" + encodeURIComponent(q);
+}
+
+function czyNowa(o){
+  return o.pierwsze_wykrycie === (dane.wygenerowano || "").slice(0, 10);
+}
+
+function widocznosc(o){
+  const st = statusy[o.id] || "nowa";
+  if (widok === "odrzucone") return st === "odrzucona";
+  if (st === "odrzucona") return false;
+  if (widok === "nowe") return czyNowa(o);
+  if (widok === "obserwuje") return st === "obserwuje";
+  if (widok === "do_sprawdzenia") return st === "do_sprawdzenia";
+  return true;
+}
+
+function wierszFlagi(dane_flagi, etykieta){
+  const p = dane_flagi?.poziom || "brak";
+  const f = FLAGI[p] || FLAGI.brak;
+  return `<div class="flaga ${f.klasa}"><span aria-hidden="true">${f.ikona}</span>
+    <span><b>${esc(etykieta)}: ${esc(f.nazwa)}</b>${esc(dane_flagi?.powod || "")}</span></div>`;
+}
+
+function rysujOferte(o){
+  const st = statusy[o.id] || "nowa";
+  const dni = dniDo(o.data_licytacji);
+  const pilne = dni != null && dni >= 0 && dni <= 7;
+
+  const znaczki = [];
+  if (czyNowa(o)) znaczki.push('<span class="znaczek z-nowa">nowa</span>');
+  if (o.perelka) znaczki.push('<span class="znaczek z-perelka">powyżej progu</span>');
+  if (pilne) znaczki.push(`<span class="znaczek z-pilne">${esc(terminSlownie(o.data_licytacji))}</span>`);
+  if (st === "obserwuje") znaczki.push('<span class="znaczek z-status">obserwuję</span>');
+  if (st === "do_sprawdzenia") znaczki.push('<span class="znaczek z-status">do obejrzenia</span>');
+  if (o.niekompletna) znaczki.push('<span class="znaczek z-braki">niepełne dane</span>');
+
+  const media = ["woda", "prad", "gaz"]
+    .filter(k => o.media && o.media[k])
+    .join(", ") || "❓ nie wynika z ogłoszenia";
+
+  const li = document.createElement("li");
+  li.className = "oferta";
+  li.dataset.ocena = ocenaWiersza(o);
+  li.dataset.status = st;
+
+  li.innerHTML = `
+   <details>
+    <summary>
+      <div class="gora">
+        <div class="za-m2">${o.cena_za_m2 ? o.cena_za_m2.toLocaleString("pl-PL") : "❓"}<span> zł/m²</span></div>
+        <div class="gdzie">${esc(o.miasto || "❓")}
+          <i>${esc(o.adres || o.dzielnica || "ulica nieujawniona w ogłoszeniu")}</i>
+        </div>
+      </div>
+      <div class="dol">
+        <span><b>${zl(o.cena_wywolawcza)}</b> wywoławcza</span>
+        <span><b>${m2(o.metraz)}</b>${o.pokoje ? ", " + o.pokoje + " pok." : ""}</span>
+        <span>${esc(terminSlownie(o.data_licytacji))}</span>
+      </div>
+      ${znaczki.length ? `<div class="znaczki">${znaczki.join("")}</div>` : ""}
+    </summary>
+
+    <div class="srodek">
+      ${wierszFlagi(o.flaga_budynek, "Budynek")}
+      ${wierszFlagi(o.flaga_okolica, "Okolica")}
+
+      <table class="tabelka">
+        <tr><th>Tryb sprzedaży</th><td>${esc(o.typ_postepowania || "❓")}</td></tr>
+        <tr><th>Termin</th><td>${esc(o.data_licytacji || "❓")}</td></tr>
+        <tr><th>Wadium</th><td>${zl(o.wadium)}</td></tr>
+        <tr><th>Piętro</th><td>${esc(o.pietro || "❓")}</td></tr>
+        <tr><th>Ogrzewanie</th><td>${esc(o.ogrzewanie || "❓ nie wynika z ogłoszenia")}</td></tr>
+        <tr><th>Media w opisie</th><td>${esc(media)}</td></tr>
+        <tr><th>Źródło</th><td>${esc([o.zrodlo, ...(o.zrodla_dodatkowe || [])].join(" + "))}</td></tr>
+        <tr><th>Pierwsze wykrycie</th><td>${esc(o.pierwsze_wykrycie || "❓")}</td></tr>
+      </table>
+
+      ${o.stan_prawny_uwagi ? `<div class="flaga f-uwaga"><span aria-hidden="true">§</span>
+         <span><b>Stan prawny</b>${esc(o.stan_prawny_uwagi)}</span></div>` : ""}
+
+      ${o.opis ? `<div class="opis">${esc(o.opis)}</div>
+         <button class="wiecej" type="button">Pokaż cały opis</button>` : ""}
+
+      <div class="akcje">
+        <a href="${esc(o.link)}" target="_blank" rel="noopener">Otwórz ogłoszenie</a>
+        ${(o.adres || o.dzielnica)
+            ? `<a href="${esc(mapaUrl(o))}" target="_blank" rel="noopener">Zobacz okolicę na mapie</a>`
+            : ""}
+      </div>
+
+      <div class="oznacz" role="group" aria-label="Oznaczenie oferty">
+        <button type="button" data-ustaw="obserwuje" aria-pressed="${st === "obserwuje"}">Obserwuję</button>
+        <button type="button" data-ustaw="do_sprawdzenia" aria-pressed="${st === "do_sprawdzenia"}">Do obejrzenia</button>
+        <button type="button" data-ustaw="odrzucona" aria-pressed="${st === "odrzucona"}">Odrzuć</button>
+      </div>
+    </div>
+   </details>`;
+
+  const rozwin = li.querySelector(".wiecej");
+  if (rozwin) {
+    const opis = li.querySelector(".opis");
+    if (opis.scrollHeight <= opis.clientHeight + 4) {
+      rozwin.remove();
+    } else {
+      rozwin.addEventListener("click", () => {
+        const pelny = opis.classList.toggle("pelny");
+        rozwin.textContent = pelny ? "Zwiń opis" : "Pokaż cały opis";
+      });
+    }
+  }
+
+  li.querySelectorAll(".oznacz button").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const nowy = btn.dataset.ustaw;
+      statusy[o.id] = statusy[o.id] === nowy ? "nowa" : nowy;
+      zapiszStatusy();
+      rysuj();
+    });
+  });
+
+  return li;
+}
+
+function rysuj(){
+  const lista = document.getElementById("lista");
+  const pusto = document.getElementById("pusto");
+  lista.innerHTML = "";
+
+  const widoczne = dane.oferty.filter(widocznosc);
+  widoczne.forEach(o => lista.appendChild(rysujOferte(o)));
+
+  if (widoczne.length === 0) {
+    pusto.hidden = false;
+    pusto.textContent = widok === "wszystkie"
+      ? "Żadna oferta nie przeszła filtrów w ostatnim przebiegu. Sprawdź sekcję „Skąd pochodzą dane” — jeśli źródła zawiodły, to nie znaczy, że rynek jest pusty."
+      : "Nic w tym widoku. Zmień filtr powyżej.";
+  } else {
+    pusto.hidden = true;
+  }
+
+  const nowe = dane.oferty.filter(o => czyNowa(o) && statusy[o.id] !== "odrzucona").length;
+  const czas = dane.wygenerowano
+    ? new Date(dane.wygenerowano).toLocaleString("pl-PL", {dateStyle:"short", timeStyle:"short"})
+    : "❓";
+  document.getElementById("stan").innerHTML =
+    `<span><b>${dane.oferty.length}</b> ofert w puli</span>
+     <span><b>${nowe}</b> nowych</span>
+     <span>sprawdzono <b>${esc(czas)}</b></span>`;
+}
+
+function rysujZrodla(){
+  const ul = document.getElementById("zrodla-lista");
+  ul.innerHTML = (dane.zrodla || []).map(z => `
+    <li><span class="kropka ${z.ok ? "tak" : "nie"}" aria-hidden="true">${z.ok ? "●" : "○"}</span>
+      <b>${esc(z.nazwa)}</b>${z.ok && z.liczba != null ? ` — ${z.liczba} ofert` : " — brak danych"}
+      ${z.uwaga ? `<i>${esc(z.uwaga)}</i>` : ""}</li>`).join("");
+  document.getElementById("zrodla").hidden = false;
+}
+
+document.getElementById("filtry").addEventListener("click", e => {
+  const btn = e.target.closest("button");
+  if (!btn) return;
+  widok = btn.dataset.widok;
+  document.querySelectorAll("#filtry button").forEach(b =>
+    b.setAttribute("aria-pressed", String(b === btn)));
+  rysuj();
+});
+
+// Cache-busting: bez tego telefon pokaże wczorajszy JSON z pamięci przeglądarki.
+fetch("data.json?t=" + Date.now())
+  .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+  .then(j => {
+    dane = j;
+    dane.oferty = dane.oferty || [];
+    document.getElementById("filtry").hidden = false;
+    if (dane.ostrzezenie) {
+      document.getElementById("alarm").innerHTML =
+        `<p class="alarm">${esc(dane.ostrzezenie)}</p>`;
+    }
+    rysuj();
+    rysujZrodla();
+  })
+  .catch(err => {
+    document.getElementById("stan").textContent = "Nie udało się wczytać danych.";
+    document.getElementById("alarm").innerHTML =
+      `<p class="alarm">Plik data.json jest nieosiągalny (${esc(err.message)}).
+       Jeśli strona dopiero powstała, poczekaj na pierwszy przebieg zbierania
+       albo uruchom go ręcznie w GitHub Actions.</p>`;
+  });
+</script>
+</body>
+</html>
