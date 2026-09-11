@@ -1,13 +1,13 @@
 {
- "wygenerowano": "2026-09-10T05:22:38+00:00",
+ "wygenerowano": "2026-09-11T05:23:00+00:00",
  "prog_podstawowy": 180000,
  "prog_perelki": 220000,
- "odrzucone_filtrem": 12,
+ "odrzucone_filtrem": 11,
  "zrodla": [
   {
    "nazwa": "przetargi.adradar.pl",
    "ok": true,
-   "liczba": 12,
+   "liczba": 11,
    "uwaga": "Lista niefiltrowana (filtr 'mieszkania' przekierowuje na archiwum) — typ nieruchomości odsiewany po stronie skryptu. Bez płatnego dostępu portal pokazuje tylko część aktualnych ogłoszeń."
   },
   {
@@ -24,6 +24,43 @@
   }
  ],
  "oferty": [
+  {
+   "id": "e7449bd5e786adc5",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Stroszek/licytacje_komornicze/17610180",
+   "pierwsze_wykrycie": "2026-09-11",
+   "adres": "Gwarków Tarnogórskich",
+   "miasto": "Bytom",
+   "dzielnica": "Stroszek",
+   "cena_wywolawcza": 132750,
+   "metraz": 66.0,
+   "pokoje": 2,
+   "pietro": null,
+   "data_licytacji": "2026-09-17",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
+   },
+   "perelka": false,
+   "notatka": "2011 zł/m²; duży metraż",
+   "niekompletna": false,
+   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: ***NIERUCHOMOŚĆ ZAPISANA W KW *** OPISANA JAKO LOKAL STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ. POŁOŻENIE BYTOM, GWARKÓW TARNOGÓRSKICH, ***/***.*** nieruchomość zapisana w KW *** opisana jako LOKAL STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ. Położenie BYTOM, GWARKÓW TARNOGÓRSKICH, ***/***. UDZIAŁ ZWIĄZANY Z WŁASNOŚCIĄ LOKALU - Wielkość udziału w nieruchomości wspólnej, którą stanowi grunt oraz części budynku i urządzenia, które nie służą wyłącznie do użyt...",
+   "cena_za_m2": 2011
+  },
   {
    "id": "010bd767f8b0b8be",
    "zrodlo": "przetargi.adradar.pl",
@@ -60,43 +97,6 @@
    "niekompletna": false,
    "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: ## LOKAL MIESZKALNY STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ Lokal mieszkalny numer ***, znajdujący się w budynku wielorodzinnym przy ul. Młodego Górnika ***A w Rudzie Śląskiej, w dzielnicy Orzegów. Dla lokalu prowadzona jest księga wieczysta o numerze ***. ***Charakterystyka lokalu:*** ***Powierzchnia:*** Powierzchnia użytkowa samego lokalu wynosi 58,37 m2. Łączna powierzchnia wraz z pomieszczeniem przynależnym (piwnicą o pow. 14,64 m2) wynos...",
    "cena_za_m2": 2224
-  },
-  {
-   "id": "a03f78773c6c7f9a",
-   "zrodlo": "przetargi.adradar.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Koch%C5%82owice/licytacje_komornicze/17546215",
-   "pierwsze_wykrycie": "2026-09-10",
-   "adres": "TUNKLA",
-   "miasto": "Ruda Śląska",
-   "dzielnica": "Kochłowice",
-   "cena_wywolawcza": 130000,
-   "metraz": 53.0,
-   "pokoje": 2,
-   "pietro": null,
-   "data_licytacji": "2026-09-10",
-   "wadium": null,
-   "typ_postepowania": "licytacja komornicza",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
-   },
-   "perelka": false,
-   "notatka": "2453 zł/m²",
-   "niekompletna": false,
-   "opis": "druga licytacja w trybie elektronicznym nieruchomości: ***LOKAL MIESZKALNY NR STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ WRAZ Z UDZIAŁEM W CZĘŚCI WSPÓLNEJ*** LOKAL MIESZKALNY ***Adres nieruchomości*** TUNKLA ***, 41-707 RUDA ŚLĄSKA, poczta Ruda Śląska ***Przeznaczenie gospodarcze nieruchomości*** Tereny mieszkaniowe ***Dla nieruchomości prowadzona jest dokumentacja*** księga wieczysta (NKW) o numerze ***, Sąd Rejonowy w Rudzie Śląskiej V Wydział Ksiąg Wieczystych ***",
-   "cena_za_m2": 2453
   },
   {
    "id": "e78b94211e9b31e1",
