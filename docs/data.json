@@ -1,13 +1,13 @@
 {
- "wygenerowano": "2026-09-11T05:23:00+00:00",
+ "wygenerowano": "2026-09-12T05:21:28+00:00",
  "prog_podstawowy": 180000,
  "prog_perelki": 220000,
- "odrzucone_filtrem": 11,
+ "odrzucone_filtrem": 12,
  "zrodla": [
   {
    "nazwa": "przetargi.adradar.pl",
    "ok": true,
-   "liczba": 11,
+   "liczba": 10,
    "uwaga": "Lista niefiltrowana (filtr 'mieszkania' przekierowuje na archiwum) — typ nieruchomości odsiewany po stronie skryptu. Bez płatnego dostępu portal pokazuje tylko część aktualnych ogłoszeń."
   },
   {
@@ -97,117 +97,6 @@
    "niekompletna": false,
    "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: ## LOKAL MIESZKALNY STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ Lokal mieszkalny numer ***, znajdujący się w budynku wielorodzinnym przy ul. Młodego Górnika ***A w Rudzie Śląskiej, w dzielnicy Orzegów. Dla lokalu prowadzona jest księga wieczysta o numerze ***. ***Charakterystyka lokalu:*** ***Powierzchnia:*** Powierzchnia użytkowa samego lokalu wynosi 58,37 m2. Łączna powierzchnia wraz z pomieszczeniem przynależnym (piwnicą o pow. 14,64 m2) wynos...",
    "cena_za_m2": 2224
-  },
-  {
-   "id": "e78b94211e9b31e1",
-   "zrodlo": "przetargi.adradar.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Ruda/licytacje_komornicze/17546125",
-   "pierwsze_wykrycie": "2026-09-10",
-   "adres": "WOJSKA POLSKIEGO",
-   "miasto": "Ruda Śląska",
-   "dzielnica": "Ruda",
-   "cena_wywolawcza": 142000,
-   "metraz": 47.0,
-   "pokoje": 2,
-   "pietro": null,
-   "data_licytacji": "2026-09-11",
-   "wadium": null,
-   "typ_postepowania": "licytacja komornicza",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
-   },
-   "perelka": false,
-   "notatka": "3021 zł/m²",
-   "niekompletna": false,
-   "opis": "druga licytacja w trybie elektronicznym nieruchomości: LOKAL MIESZKALNY NR STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ ***LOKAL MIESZKALNY*** ***Adres nieruchomości*** WOJSKA POLSKIEGO ***, 41-709 RUDA ŚLĄSKA, poczta Ruda Śląska ***Przeznaczenie gospodarcze nieruchomości*** Tereny mieszkaniowe ***Dla nieruchomości prowadzona jest dokumentacja*** księga wieczysta (NKW) o numerze ***, Sąd Rejonowy w Rudzie Śląskiej V Wydział Ksiąg Wieczystych ***",
-   "cena_za_m2": 3021
-  },
-  {
-   "id": "bdcea2afaeaed90a",
-   "zrodlo": "przetargi.adradar.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/%C5%9Ar%C3%B3dmie%C5%9Bcie/licytacje_komornicze/17668584",
-   "pierwsze_wykrycie": "2026-09-10",
-   "adres": "ul. Estreichera",
-   "miasto": "Bytom",
-   "dzielnica": "Śródmieście",
-   "cena_wywolawcza": 155850,
-   "metraz": 51.0,
-   "pokoje": 2,
-   "pietro": null,
-   "data_licytacji": "2026-09-11",
-   "wadium": null,
-   "typ_postepowania": "licytacja komornicza",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
-   },
-   "perelka": false,
-   "notatka": "3056 zł/m²",
-   "niekompletna": false,
-   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: LOKAL MIESZKALNY PRZY UL. ESTREICHERA *** W BYTOMIU Budynek zlokalizowany przy ul. Estreichera *** w Bytomiu znajduje się w centralno-północnej części miasta, w dzielnicy określanej jako Śródmieście lub pogranicze Rozbarku. Lokalizacja mieści się w gęsto zabudowanej części miasta, z dominacją zabudowy mieszkaniowej wielorodzinnej, głównie z okresu PRL wcześniejszej - kamienicowej. Bezpośrednie otoczenie budynku tworzą inne budynki mie...",
-   "cena_za_m2": 3056
-  },
-  {
-   "id": "352f09b2b2c70c21",
-   "zrodlo": "przetargi.adradar.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Karb/licytacje_komornicze/17691521",
-   "pierwsze_wykrycie": "2026-09-10",
-   "adres": "ul. Wrocławska",
-   "miasto": "Bytom",
-   "dzielnica": "Karb",
-   "cena_wywolawcza": 64275,
-   "metraz": 21.0,
-   "pokoje": 1,
-   "pietro": null,
-   "data_licytacji": "2026-09-11",
-   "wadium": null,
-   "typ_postepowania": "licytacja komornicza",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
-   },
-   "perelka": false,
-   "notatka": "3061 zł/m²",
-   "niekompletna": false,
-   "opis": "pierwsza licytacja nieruchomości: SPÓŁDZIELCZE PRAWO DO LOKALU MIESZKALNEGO Przedmiotem pierwszej licytacji jest ww. nieruchomość w postaci ograniczonego prawa rzeczowego jako - spółdzielcze prawo do lokalu mieszkalnego - o łącznej powierzchni użytkowej 20,70 m2 na ww. powierzchnie jest zaliczony/e POKÓJ - 1, WNĘKA KUCHENNA - 1, PRZEDPOKÓJ - 1, ŁAZIENKA - 1, WC - 1. Przedmiotowy lokal mieszkalny jest usytuowany na 7-dmej kondygnacji budynku wielomieszkaniowego (11 kondygnacji). ***Adres nier...",
-   "cena_za_m2": 3061
   },
   {
    "id": "d912b2bf948f9680",
@@ -317,7 +206,7 @@
    "perelka": false,
    "notatka": "3180 zł/m²; brak ulicy w ogłoszeniu",
    "niekompletna": true,
-   "opis": "Nieruchomość znajduje się w budynku wielorodzinnym w zabudowie miejskiej, a szczegółowe warunki udziału w przetargu określono w ogłoszeniu.",
+   "opis": "Mieszkanie w Zabrzu przeznaczone do nabycia w trybie przetargu, z prawem udziału w gruncie. Lokal położony jest w budynku wielorodzinnym w zabudowie miejskiej.",
    "cena_za_m2": 3180
   },
   {
@@ -358,6 +247,43 @@
    "cena_za_m2": 3415
   },
   {
+   "id": "0afe7989563fccbb",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Mys%C5%82owice/licytacje_komornicze/17605700",
+   "pierwsze_wykrycie": "2026-09-12",
+   "adres": "Górnicza",
+   "miasto": "Mysłowice",
+   "dzielnica": null,
+   "cena_wywolawcza": 174667,
+   "metraz": 50.0,
+   "pokoje": 2,
+   "pietro": null,
+   "data_licytacji": "2026-09-18",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
+   },
+   "perelka": false,
+   "notatka": "3493 zł/m²",
+   "niekompletna": false,
+   "opis": "druga licytacja nieruchomości: SPÓŁDZIELCZEGO WŁASNOŚCIOWE PRAWO DO LOKALU MIESZKALNEGO nr *** położonego w Mysłowicach przy ul. Górniczej ***, należącego do dłużniczki *** ***. Lokal wpisany jest do rejestru lokali własnościowych Mysłowickiej Spółdzielni Mieszkaniowej w Mysłowicach (brak księgi wieczystej). Lokal mieszkalny położony na IV piętrze, składa się z dwóch pokoi, kuchni, łazienki z wc i przedpokoju o łącznej powierzchni użytkowej 49,80 m2. Lokal zaniedbany, wymaga kapitalnego remo...",
+   "cena_za_m2": 3493
+  },
+  {
    "id": "bc6183eb84e0256b",
    "zrodlo": "listaprzetargow.pl",
    "zrodla_dodatkowe": [],
@@ -391,7 +317,7 @@
    "perelka": false,
    "notatka": "3502 zł/m²; brak ulicy w ogłoszeniu",
    "niekompletna": true,
-   "opis": "Nieruchomość położona jest w budynku wielorodzinnym w zabudowie miejskiej, w dogodnej lokalizacji z dostępem do infrastruktury miejskiej.",
+   "opis": "Mieszkanie w Zabrzu przeznaczone do nabycia w drodze przetargu, zlokalizowane w budynku wielorodzinnym wraz z udziałem w prawie własności gruntu. Oferta dotyczy lokalu mieszkalnego w zabudowie miejskiej, idealnego jako inwestycja lub własne lokum.",
    "cena_za_m2": 3502
   },
   {
@@ -465,7 +391,7 @@
    "perelka": false,
    "notatka": "3604 zł/m²; brak ulicy w ogłoszeniu",
    "niekompletna": true,
-   "opis": "Nieruchomość stanowi atrakcyjną ofertę dla osób poszukujących mieszkania w mieście, z możliwością zakupu w formie przetargu organizowanego w określonym terminie.",
+   "opis": "Mieszkanie w Zabrzu przeznaczone do nabycia w drodze przetargu, z udziałem w prawie własności gruntu. Lokal położony jest w budynku wielorodzinnym w zabudowie miejskiej, w dogodnej lokalizacji z dostępem do infrastruktury.",
    "cena_za_m2": 3604
   },
   {
@@ -502,7 +428,7 @@
    "perelka": false,
    "notatka": "3681 zł/m²; brak ulicy w ogłoszeniu",
    "niekompletna": true,
-   "opis": "Oferta może zainteresować osoby szukające mieszkania w mieście z możliwością zakupu na przetargu organizowanym w określonym terminie.",
+   "opis": "Mieszkanie położone w Zabrzu przeznaczone jest do nabycia w trybie przetargu wraz z udziałem w prawie własności gruntu. Lokal znajduje się w budynku wielorodzinnym i stanowi atrakcyjną propozycję dla osób szukających mieszkania w mieście.",
    "cena_za_m2": 3681
   },
   {
@@ -576,7 +502,7 @@
    "perelka": false,
    "notatka": "3768 zł/m²; brak ulicy w ogłoszeniu",
    "niekompletna": true,
-   "opis": "Nieruchomość położona jest w zabudowie wielorodzinnej w mieście, co stanowi atrakcyjną ofertę inwestycyjną lub na własne potrzeby mieszkaniowe.",
+   "opis": "Mieszkanie w Zabrzu przeznaczone do nabycia w drodze przetargu, zlokalizowane w budynku wielorodzinnym, sprzedawane wraz z udziałem w prawie własności gruntu. Oferta dotyczy lokalu mieszkalnego w zabudowie miejskiej, w dobrze skomunikowanej części miasta.",
    "cena_za_m2": 3768
   },
   {
@@ -613,7 +539,7 @@
    "perelka": false,
    "notatka": "3871 zł/m²; brak ulicy w ogłoszeniu",
    "niekompletna": true,
-   "opis": "Nieruchomość stanowi atrakcyjną ofertę inwestycyjną lub na własne potrzeby mieszkaniowe dla osób zainteresowanych zakupem na licytacji.",
+   "opis": "Mieszkanie w Zabrzu przeznaczone do nabycia w drodze przetargu, zlokalizowane w budynku wielorodzinnym, sprzedawane wraz z udziałem w prawie własności gruntu. Lokal stanowi atrakcyjną propozycję dla osób szukających własnego M w mieście województwa śląskiego.",
    "cena_za_m2": 3871
   },
   {
@@ -650,7 +576,7 @@
    "perelka": false,
    "notatka": "3890 zł/m²; brak ulicy w ogłoszeniu",
    "niekompletna": true,
-   "opis": "Nieruchomość stanowi mieszkanie w kamienicy/bloku, idealne jako inwestycja lub do własnych potrzeb mieszkaniowych.",
+   "opis": "Mieszkanie w Zabrzu przeznaczone do nabycia w drodze przetargu, zlokalizowane w budynku wielorodzinnym, sprzedawane wraz z udziałem w prawie własności gruntu. Oferta dotyczy lokalu mieszkalnego w zabudowie miejskiej, w dogodnej lokalizacji z dostępem do infrastruktury.",
    "cena_za_m2": 3890
   },
   {
@@ -761,7 +687,7 @@
    "perelka": false,
    "notatka": "4189 zł/m²; brak ulicy w ogłoszeniu",
    "niekompletna": true,
-   "opis": "Nieruchomość znajduje się w zabudowie miejskiej, co zapewnia dostęp do infrastruktury i usług.",
+   "opis": "Mieszkanie w Zabrzu przeznaczone do nabycia w trybie przetargu, zlokalizowane w budynku wielorodzinnym, sprzedawane wraz z udziałem w prawie własności gruntu. Oferta może zainteresować osoby szukające lokalu w mieście województwa śląskiego z możliwością zakupu w procedurze przetargowej.",
    "cena_za_m2": 4189
   },
   {
