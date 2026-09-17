@@ -1,8 +1,8 @@
 {
- "wygenerowano": "2026-09-16T05:23:11+00:00",
+ "wygenerowano": "2026-09-17T05:23:10+00:00",
  "prog_podstawowy": 180000,
  "prog_perelki": 220000,
- "odrzucone_filtrem": 17,
+ "odrzucone_filtrem": 15,
  "zrodla": [
   {
    "nazwa": "przetargi.adradar.pl",
@@ -13,7 +13,7 @@
   {
    "nazwa": "listaprzetargow.pl",
    "ok": true,
-   "liczba": 42,
+   "liczba": 25,
    "uwaga": "Dokładna ulica i kontakt są ukryte za płatnym dostępem portalu — widoczne jest tylko miasto, czasem dzielnica."
   },
   {
@@ -32,7 +32,7 @@
    "pierwsze_wykrycie": "2026-09-16",
    "adres": null,
    "miasto": "Katowice",
-   "dzielnica": "Bogucice",
+   "dzielnica": null,
    "cena_wywolawcza": 100216,
    "metraz": 72.3,
    "pokoje": 3,
@@ -60,6 +60,43 @@
    "niekompletna": true,
    "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
    "cena_za_m2": 1386
+  },
+  {
+   "id": "f5611bbf67048f61",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/B%C4%99dzin/licytacje_komornicze/17735035",
+   "pierwsze_wykrycie": "2026-09-17",
+   "adres": "Konopnickiej",
+   "miasto": "Będzin",
+   "dzielnica": null,
+   "cena_wywolawcza": 87750,
+   "metraz": 47.0,
+   "pokoje": 2,
+   "pietro": null,
+   "data_licytacji": "2026-09-23",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
+   },
+   "perelka": false,
+   "notatka": "1867 zł/m²",
+   "niekompletna": false,
+   "opis": "pierwsza licytacja nieruchomości: LOKAL MIESZKALNY STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ, POŁOŻONY W BĘDZINIE PRZY UL. KONOPNICKIEJ ***/***, DLA KTÓREGO SĄD REJONOWY W BĘDZINIE PROWADZI KW O NUMERZE *** Lokal mieszkalny stanowiący odrębną nieruchomość, oznaczony nr ***, położony na pierwszej kondygnacji w budynku mieszkalnym nr ***, przy ulicy Marii Konopnickiej w Będzinie. Dla lokalu prowadzona jest księga wieczysta o numerze ***. Obecnie lokal mieszkalny nr *** składa się z dwóch pokoi - w tym j...",
+   "cena_za_m2": 1867
   },
   {
    "id": "e7449bd5e786adc5",
@@ -97,43 +134,6 @@
    "niekompletna": false,
    "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: ***NIERUCHOMOŚĆ ZAPISANA W KW *** OPISANA JAKO LOKAL STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ. POŁOŻENIE BYTOM, GWARKÓW TARNOGÓRSKICH, ***/***.*** nieruchomość zapisana w KW *** opisana jako LOKAL STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ. Położenie BYTOM, GWARKÓW TARNOGÓRSKICH, ***/***. UDZIAŁ ZWIĄZANY Z WŁASNOŚCIĄ LOKALU - Wielkość udziału w nieruchomości wspólnej, którą stanowi grunt oraz części budynku i urządzenia, które nie służą wyłącznie do użyt...",
    "cena_za_m2": 2011
-  },
-  {
-   "id": "010bd767f8b0b8be",
-   "zrodlo": "przetargi.adradar.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Orzeg%C3%B3w/licytacje_komornicze/17541058",
-   "pierwsze_wykrycie": "2026-09-10",
-   "adres": "Młodego Górnika",
-   "miasto": "Ruda Śląska",
-   "dzielnica": "Orzegów",
-   "cena_wywolawcza": 129000,
-   "metraz": 58.0,
-   "pokoje": 3,
-   "pietro": null,
-   "data_licytacji": "2026-09-16",
-   "wadium": null,
-   "typ_postepowania": "licytacja komornicza",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
-   },
-   "perelka": false,
-   "notatka": "2224 zł/m²",
-   "niekompletna": false,
-   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: ## LOKAL MIESZKALNY STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ Lokal mieszkalny numer ***, znajdujący się w budynku wielorodzinnym przy ul. Młodego Górnika ***A w Rudzie Śląskiej, w dzielnicy Orzegów. Dla lokalu prowadzona jest księga wieczysta o numerze ***. ***Charakterystyka lokalu:*** ***Powierzchnia:*** Powierzchnia użytkowa samego lokalu wynosi 58,37 m2. Łączna powierzchnia wraz z pomieszczeniem przynależnym (piwnicą o pow. 14,64 m2) wynos...",
-   "cena_za_m2": 2224
   },
   {
    "id": "421fd08ea9e37087",
@@ -321,6 +321,43 @@
    "cena_za_m2": 2927
   },
   {
+   "id": "6980fa41a07c6d7d",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Zabrze/licytacje_komornicze/17768799",
+   "pierwsze_wykrycie": "2026-09-17",
+   "adres": "Bytomska",
+   "miasto": "Zabrze",
+   "dzielnica": null,
+   "cena_wywolawcza": 106024,
+   "metraz": 36.0,
+   "pokoje": 1,
+   "pietro": null,
+   "data_licytacji": "2026-09-23",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
+   },
+   "perelka": false,
+   "notatka": "2945 zł/m²",
+   "niekompletna": false,
+   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: ## LOKAL MIESZKALNY Lokal mieszkalny o powierzchni użytkowej 36,30m2 skłądający się z pokoju, przedpokoju, łazienki z wc i kuchni usytuowany na pierwszym piętrze budynku. ***Adres nieruchomości*** Bytomska ***/***, 41-800 Zabrze, poczta Zabrze ***Przeznaczenie gospodarcze nieruchomości*** Nieruchomości lokalowe mieszkalne ***Dla nieruchomości prowadzona jest dokumentacja*** księga wieczysta (NKW) o numerze ***, Sąd Rejonowy w Zabrzu V...",
+   "cena_za_m2": 2945
+  },
+  {
    "id": "04041d6ccf1e6511",
    "zrodlo": "listaprzetargow.pl",
    "zrodla_dodatkowe": [],
@@ -365,7 +402,7 @@
    "pierwsze_wykrycie": "2026-09-16",
    "adres": null,
    "miasto": "Katowice",
-   "dzielnica": null,
+   "dzielnica": "Załęże",
    "cena_wywolawcza": 125200,
    "metraz": 40.88,
    "pokoje": 1,
@@ -393,117 +430,6 @@
    "niekompletna": true,
    "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
    "cena_za_m2": 3063
-  },
-  {
-   "id": "d912b2bf948f9680",
-   "zrodlo": "listaprzetargow.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://listaprzetargow.pl/oferty/537591-przetarg-mieszkanie-zabrze-slaskie",
-   "pierwsze_wykrycie": "2026-09-10",
-   "adres": null,
-   "miasto": "Katowice",
-   "dzielnica": null,
-   "cena_wywolawcza": 78000,
-   "metraz": 25.16,
-   "pokoje": 1,
-   "pietro": "1",
-   "data_licytacji": "2026-10-13",
-   "wadium": 7800,
-   "typ_postepowania": "przetarg",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
-   },
-   "perelka": false,
-   "notatka": "3100 zł/m²; brak ulicy w ogłoszeniu",
-   "niekompletna": true,
-   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
-   "cena_za_m2": 3100
-  },
-  {
-   "id": "62a896c85474a7b0",
-   "zrodlo": "przetargi.adradar.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/%C5%9Awi%C4%99toch%C5%82owice/licytacje_komornicze/17479873",
-   "pierwsze_wykrycie": "2026-09-10",
-   "adres": "Wyzwolenia",
-   "miasto": "Świętochłowice",
-   "dzielnica": null,
-   "cena_wywolawcza": 123750,
-   "metraz": 39.0,
-   "pokoje": 1,
-   "pietro": null,
-   "data_licytacji": "2026-09-16",
-   "wadium": null,
-   "typ_postepowania": "licytacja komornicza",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
-   },
-   "perelka": false,
-   "notatka": "3173 zł/m²",
-   "niekompletna": false,
-   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: LOKAL STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ z własnością lokalu związane jest prawo - udział w wysokości 3939/308481 w nieruchomości wspólnej dla której prowadzona jest księga wieczysta o numerze *** ***Adres nieruchomości*** Wyzwolenia ***/***, 41-600 Świętochłowice, poczta Świętochłowice ***Przeznaczenie gospodarcze nieruchomości*** Nieruchomości lokalowe mieszkalne ***Dla nieruchomości prowadzona jest dokumentacja*** księga wieczysta (NK...",
-   "cena_za_m2": 3173
-  },
-  {
-   "id": "006a137b3e1ad400",
-   "zrodlo": "listaprzetargow.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://listaprzetargow.pl/oferty/537590-przetarg-mieszkanie-zabrze-slaskie",
-   "pierwsze_wykrycie": "2026-09-10",
-   "adres": null,
-   "miasto": "Katowice",
-   "dzielnica": null,
-   "cena_wywolawcza": 80000,
-   "metraz": 25.16,
-   "pokoje": 1,
-   "pietro": "1",
-   "data_licytacji": "2026-10-13",
-   "wadium": 8000,
-   "typ_postepowania": "przetarg",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
-   },
-   "perelka": false,
-   "notatka": "3180 zł/m²; brak ulicy w ogłoszeniu",
-   "niekompletna": true,
-   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
-   "cena_za_m2": 3180
   },
   {
    "id": "0afe7989563fccbb",
@@ -543,154 +469,6 @@
    "cena_za_m2": 3493
   },
   {
-   "id": "bc6183eb84e0256b",
-   "zrodlo": "listaprzetargow.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://listaprzetargow.pl/oferty/537592-przetarg-mieszkanie-zabrze-slaskie",
-   "pierwsze_wykrycie": "2026-09-10",
-   "adres": null,
-   "miasto": "Katowice",
-   "dzielnica": null,
-   "cena_wywolawcza": 96000,
-   "metraz": 27.41,
-   "pokoje": 1,
-   "pietro": "parter",
-   "data_licytacji": "2026-10-13",
-   "wadium": 9000,
-   "typ_postepowania": "przetarg",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
-   },
-   "perelka": false,
-   "notatka": "3502 zł/m²; brak ulicy w ogłoszeniu",
-   "niekompletna": true,
-   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
-   "cena_za_m2": 3502
-  },
-  {
-   "id": "a469c23b0564ecba",
-   "zrodlo": "listaprzetargow.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://listaprzetargow.pl/oferty/537598-przetarg-mieszkanie-zabrze-slaskie",
-   "pierwsze_wykrycie": "2026-09-10",
-   "adres": null,
-   "miasto": "Katowice",
-   "dzielnica": null,
-   "cena_wywolawcza": 160000,
-   "metraz": 44.4,
-   "pokoje": 2,
-   "pietro": "3",
-   "data_licytacji": "2026-10-13",
-   "wadium": 16000,
-   "typ_postepowania": "przetarg",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
-   },
-   "perelka": false,
-   "notatka": "3604 zł/m²; brak ulicy w ogłoszeniu",
-   "niekompletna": true,
-   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
-   "cena_za_m2": 3604
-  },
-  {
-   "id": "4ce3b92e13c309ee",
-   "zrodlo": "listaprzetargow.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://listaprzetargow.pl/oferty/537594-przetarg-mieszkanie-zabrze-slaskie",
-   "pierwsze_wykrycie": "2026-09-10",
-   "adres": null,
-   "miasto": "Katowice",
-   "dzielnica": null,
-   "cena_wywolawcza": 110000,
-   "metraz": 29.88,
-   "pokoje": 1,
-   "pietro": "2",
-   "data_licytacji": "2026-10-13",
-   "wadium": 11000,
-   "typ_postepowania": "przetarg",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
-   },
-   "perelka": false,
-   "notatka": "3681 zł/m²; brak ulicy w ogłoszeniu",
-   "niekompletna": true,
-   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
-   "cena_za_m2": 3681
-  },
-  {
-   "id": "e6a73d7cc12266e6",
-   "zrodlo": "listaprzetargow.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://listaprzetargow.pl/oferty/537596-przetarg-mieszkanie-zabrze-slaskie",
-   "pierwsze_wykrycie": "2026-09-10",
-   "adres": null,
-   "miasto": "Katowice",
-   "dzielnica": null,
-   "cena_wywolawcza": 130000,
-   "metraz": 34.5,
-   "pokoje": 1,
-   "pietro": "3",
-   "data_licytacji": "2026-10-13",
-   "wadium": 13000,
-   "typ_postepowania": "przetarg",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
-   },
-   "perelka": false,
-   "notatka": "3768 zł/m²; brak ulicy w ogłoszeniu",
-   "niekompletna": true,
-   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
-   "cena_za_m2": 3768
-  },
-  {
    "id": "adab5bdf0395bc47",
    "zrodlo": "listaprzetargow.pl",
    "zrodla_dodatkowe": [],
@@ -698,7 +476,7 @@
    "pierwsze_wykrycie": "2026-09-16",
    "adres": null,
    "miasto": "Katowice",
-   "dzielnica": "Centrum",
+   "dzielnica": "Bogucice",
    "cena_wywolawcza": 136800,
    "metraz": 35.99,
    "pokoje": 1,
@@ -728,80 +506,6 @@
    "cena_za_m2": 3801
   },
   {
-   "id": "058a23792bcdae10",
-   "zrodlo": "listaprzetargow.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://listaprzetargow.pl/oferty/537597-przetarg-mieszkanie-zabrze-slaskie",
-   "pierwsze_wykrycie": "2026-09-10",
-   "adres": null,
-   "miasto": "Katowice",
-   "dzielnica": null,
-   "cena_wywolawcza": 130000,
-   "metraz": 33.58,
-   "pokoje": 1,
-   "pietro": "1",
-   "data_licytacji": "2026-10-13",
-   "wadium": 12000,
-   "typ_postepowania": "przetarg",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
-   },
-   "perelka": false,
-   "notatka": "3871 zł/m²; brak ulicy w ogłoszeniu",
-   "niekompletna": true,
-   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
-   "cena_za_m2": 3871
-  },
-  {
-   "id": "92f85bb25a5b93b8",
-   "zrodlo": "listaprzetargow.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://listaprzetargow.pl/oferty/537595-przetarg-mieszkanie-zabrze-slaskie",
-   "pierwsze_wykrycie": "2026-09-10",
-   "adres": null,
-   "miasto": "Katowice",
-   "dzielnica": null,
-   "cena_wywolawcza": 170000,
-   "metraz": 43.7,
-   "pokoje": 2,
-   "pietro": "1",
-   "data_licytacji": "2026-10-13",
-   "wadium": 17000,
-   "typ_postepowania": "przetarg",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
-   },
-   "perelka": false,
-   "notatka": "3890 zł/m²; brak ulicy w ogłoszeniu",
-   "niekompletna": true,
-   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
-   "cena_za_m2": 3890
-  },
-  {
    "id": "b70c3010768d6ec9",
    "zrodlo": "listaprzetargow.pl",
    "zrodla_dodatkowe": [],
@@ -809,7 +513,7 @@
    "pierwsze_wykrycie": "2026-09-16",
    "adres": null,
    "miasto": "Katowice",
-   "dzielnica": "Centrum",
+   "dzielnica": null,
    "cena_wywolawcza": 167952,
    "metraz": 42.76,
    "pokoje": 1,
@@ -876,80 +580,6 @@
    "cena_za_m2": 3937
   },
   {
-   "id": "e22711e5c781aa49",
-   "zrodlo": "listaprzetargow.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://listaprzetargow.pl/oferty/532663-przetarg-mieszkanie-zabrze-slaskie",
-   "pierwsze_wykrycie": "2026-09-10",
-   "adres": null,
-   "miasto": "Katowice",
-   "dzielnica": null,
-   "cena_wywolawcza": 132000,
-   "metraz": 31.77,
-   "pokoje": 1,
-   "pietro": null,
-   "data_licytacji": "2026-09-16",
-   "wadium": 13000,
-   "typ_postepowania": "przetarg",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
-   },
-   "perelka": false,
-   "notatka": "4155 zł/m²; brak ulicy w ogłoszeniu",
-   "niekompletna": true,
-   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
-   "cena_za_m2": 4155
-  },
-  {
-   "id": "1213395cd651b4c9",
-   "zrodlo": "listaprzetargow.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://listaprzetargow.pl/oferty/537593-przetarg-mieszkanie-zabrze-slaskie",
-   "pierwsze_wykrycie": "2026-09-10",
-   "adres": null,
-   "miasto": "Katowice",
-   "dzielnica": null,
-   "cena_wywolawcza": 140000,
-   "metraz": 33.42,
-   "pokoje": 1,
-   "pietro": "parter",
-   "data_licytacji": "2026-10-13",
-   "wadium": 14000,
-   "typ_postepowania": "przetarg",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
-   },
-   "perelka": false,
-   "notatka": "4189 zł/m²; brak ulicy w ogłoszeniu",
-   "niekompletna": true,
-   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
-   "cena_za_m2": 4189
-  },
-  {
    "id": "f4bed231e49c9013",
    "zrodlo": "listaprzetargow.pl",
    "zrodla_dodatkowe": [],
@@ -957,7 +587,7 @@
    "pierwsze_wykrycie": "2026-09-16",
    "adres": null,
    "miasto": "Katowice",
-   "dzielnica": null,
+   "dzielnica": "Centrum",
    "cena_wywolawcza": 155043,
    "metraz": 36.9,
    "pokoje": 1,
@@ -994,7 +624,7 @@
    "pierwsze_wykrycie": "2026-09-16",
    "adres": null,
    "miasto": "Katowice",
-   "dzielnica": "Bogucice",
+   "dzielnica": null,
    "cena_wywolawcza": 171603,
    "metraz": 40.74,
    "pokoje": 2,
@@ -1068,7 +698,7 @@
    "pierwsze_wykrycie": "2026-09-16",
    "adres": null,
    "miasto": "Katowice",
-   "dzielnica": "Bogucice",
+   "dzielnica": null,
    "cena_wywolawcza": 121422,
    "metraz": 28.1,
    "pokoje": 1,
@@ -1105,7 +735,7 @@
    "pierwsze_wykrycie": "2026-09-16",
    "adres": null,
    "miasto": "Katowice",
-   "dzielnica": null,
+   "dzielnica": "Bogucice",
    "cena_wywolawcza": 130636,
    "metraz": 29.49,
    "pokoje": 1,
@@ -1133,43 +763,6 @@
    "niekompletna": true,
    "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
    "cena_za_m2": 4430
-  },
-  {
-   "id": "d41ae846f990e5fa",
-   "zrodlo": "przetargi.adradar.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Centrum/licytacje_komornicze/17652643",
-   "pierwsze_wykrycie": "2026-09-10",
-   "adres": "Wróblewskiego",
-   "miasto": "Chorzów",
-   "dzielnica": "Centrum",
-   "cena_wywolawcza": 156075,
-   "metraz": 35.0,
-   "pokoje": 1,
-   "pietro": null,
-   "data_licytacji": "2026-09-16",
-   "wadium": null,
-   "typ_postepowania": "licytacja komornicza",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": "gazowe",
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
-   },
-   "perelka": false,
-   "notatka": "4459 zł/m²; ogrzewanie: gazowe",
-   "niekompletna": false,
-   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: ***MIESZKANIE CHORZÓW UL. WRÓBLEWSKIEGO ***/*** Lokal mieszkalny znajduje się na III kondygnacji (2 piętro) budynku wielorodzinnego. Lokal składa się z pokoju, kuchni, łazienki z WC i przedpokoju. Powierzchnia lokalu wynosi 35,4 m2. Lokal zamieszkały, instalacje wewnętrzne dobre. Ogrzewanie mieszkania centralne. Podgrzewanie wody z kotła gazowego typu junkers. Stolarka okienna zespolona, stolarka drzwiowa standardowa. Posadzka panelow...",
-   "cena_za_m2": 4459
   },
   {
    "id": "717bc40130365906",
@@ -1207,119 +800,6 @@
    "niekompletna": true,
    "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
    "cena_za_m2": 4542
-  },
-  {
-   "id": "9444ed7a21e74d50",
-   "zrodlo": "listaprzetargow.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://listaprzetargow.pl/oferty/532658-przetarg-mieszkanie-zabrze-slaskie",
-   "pierwsze_wykrycie": "2026-09-10",
-   "adres": null,
-   "miasto": "Katowice",
-   "dzielnica": null,
-   "cena_wywolawcza": 180000,
-   "metraz": 39.25,
-   "pokoje": 2,
-   "pietro": "1",
-   "data_licytacji": "2026-09-16",
-   "wadium": 18000,
-   "typ_postepowania": "przetarg",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
-   },
-   "perelka": false,
-   "notatka": "4586 zł/m²; brak ulicy w ogłoszeniu",
-   "niekompletna": true,
-   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
-   "cena_za_m2": 4586
-  },
-  {
-   "id": "ec4ddbcc09dd10ea",
-   "zrodlo": "listaprzetargow.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://listaprzetargow.pl/oferty/532662-przetarg-mieszkanie-zabrze-slaskie",
-   "pierwsze_wykrycie": "2026-09-10",
-   "adres": null,
-   "miasto": "Katowice",
-   "dzielnica": null,
-   "cena_wywolawcza": 160000,
-   "metraz": 34.55,
-   "pokoje": 1,
-   "pietro": "parter",
-   "data_licytacji": "2026-09-16",
-   "wadium": 16000,
-   "typ_postepowania": "przetarg",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
-   },
-   "perelka": false,
-   "notatka": "4631 zł/m²; brak ulicy w ogłoszeniu",
-   "niekompletna": true,
-   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
-   "cena_za_m2": 4631
-  },
-  {
-   "id": "867cc4d5029151fe",
-   "zrodlo": "listaprzetargow.pl",
-   "zrodla_dodatkowe": [
-    "listaprzetargow.pl"
-   ],
-   "link": "https://listaprzetargow.pl/oferty/532665-przetarg-mieszkanie-zabrze-slaskie",
-   "pierwsze_wykrycie": "2026-09-10",
-   "adres": null,
-   "miasto": "Katowice",
-   "dzielnica": null,
-   "cena_wywolawcza": 170000,
-   "metraz": 36.67,
-   "pokoje": 2,
-   "pietro": "2",
-   "data_licytacji": "2026-09-16",
-   "wadium": 17500,
-   "typ_postepowania": "przetarg",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
-   },
-   "perelka": false,
-   "notatka": "4636 zł/m²; brak ulicy w ogłoszeniu",
-   "niekompletna": true,
-   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
-   "cena_za_m2": 4636
   }
  ]
 }
