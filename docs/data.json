@@ -1,5 +1,5 @@
 {
- "wygenerowano": "2026-09-18T05:22:07+00:00",
+ "wygenerowano": "2026-09-19T05:21:25+00:00",
  "prog_podstawowy": 180000,
  "prog_perelki": 220000,
  "odrzucone_filtrem": 14,
@@ -208,6 +208,43 @@
    "niekompletna": true,
    "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
    "cena_za_m2": 2517
+  },
+  {
+   "id": "df7f0e94914724c7",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Orzeg%C3%B3w/licytacje_komornicze/17691229",
+   "pierwsze_wykrycie": "2026-09-19",
+   "adres": "Orzegowska",
+   "miasto": "Ruda Śląska",
+   "dzielnica": "Orzegów",
+   "cena_wywolawcza": 125925,
+   "metraz": 50.0,
+   "pokoje": 2,
+   "pietro": null,
+   "data_licytacji": "2026-09-30",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
+   },
+   "perelka": false,
+   "notatka": "2518 zł/m²",
+   "niekompletna": false,
+   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: LOKAL MIESZKALNY STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ Przedmiotem licytacji jest prawo własności nieruchomości lokalowej – lokalu mieszkalnego nr ***, znajdującego się w budynku wielorodzinnym przy ul. Orzegowskiej *** w Rudzie Śląskiej (dzielnica Ruda). Dla nieruchomości prowadzona jest księga wieczysta nr ***. Charakterystyka lokalu: Powierzchnia użytkowa: 49,88 m2. Kondygnacja: II kondygnacja (I piętro). Układ funkcjonalny: 2 pokoje, ku...",
+   "cena_za_m2": 2518
   },
   {
    "id": "f5b46ba5a175ef94",
@@ -504,43 +541,6 @@
    "niekompletna": false,
    "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: LOKAL MIESZKALNY STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ Lokal mieszkalny stanowiący odrębną nieruchomość położony w Bytomiu przy ul. Tuwima ***/***. Budynek 4 piętrowy, wybudowany w 1980 roku. Budynek zewnętrznie zadbany, klatka schodowa wymaga małego remontu, stan techniczny dobry. Otoczenie budynku sprawia pozytywne wrażenie. Mieszkanie usytuowane jest na trzecim piętrze i składa się z 2 pokoi, kuchni, łazienki i przedpokoju. Powierzchnia ...",
    "cena_za_m2": 3112
-  },
-  {
-   "id": "0afe7989563fccbb",
-   "zrodlo": "przetargi.adradar.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Mys%C5%82owice/licytacje_komornicze/17605700",
-   "pierwsze_wykrycie": "2026-09-12",
-   "adres": "Górnicza",
-   "miasto": "Mysłowice",
-   "dzielnica": null,
-   "cena_wywolawcza": 174667,
-   "metraz": 50.0,
-   "pokoje": 2,
-   "pietro": null,
-   "data_licytacji": "2026-09-18",
-   "wadium": null,
-   "typ_postepowania": "licytacja komornicza",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
-   },
-   "perelka": false,
-   "notatka": "3493 zł/m²",
-   "niekompletna": false,
-   "opis": "druga licytacja nieruchomości: SPÓŁDZIELCZEGO WŁASNOŚCIOWE PRAWO DO LOKALU MIESZKALNEGO nr *** położonego w Mysłowicach przy ul. Górniczej ***, należącego do dłużniczki *** ***. Lokal wpisany jest do rejestru lokali własnościowych Mysłowickiej Spółdzielni Mieszkaniowej w Mysłowicach (brak księgi wieczystej). Lokal mieszkalny położony na IV piętrze, składa się z dwóch pokoi, kuchni, łazienki z wc i przedpokoju o łącznej powierzchni użytkowej 49,80 m2. Lokal zaniedbany, wymaga kapitalnego remo...",
-   "cena_za_m2": 3493
   },
   {
    "id": "adab5bdf0395bc47",
