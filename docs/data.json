@@ -1,8 +1,8 @@
 {
- "wygenerowano": "2026-09-22T05:22:26+00:00",
+ "wygenerowano": "2026-09-23T05:22:28+00:00",
  "prog_podstawowy": 180000,
  "prog_perelki": 220000,
- "odrzucone_filtrem": 19,
+ "odrzucone_filtrem": 18,
  "zrodla": [
   {
    "nazwa": "przetargi.adradar.pl",
@@ -13,7 +13,7 @@
   {
    "nazwa": "listaprzetargow.pl",
    "ok": true,
-   "liczba": 25,
+   "liczba": 24,
    "uwaga": "Dokładna ulica i kontakt są ukryte za płatnym dostępem portalu — widoczne jest tylko miasto, czasem dzielnica."
   },
   {
@@ -321,43 +321,6 @@
    "cena_za_m2": 2741
   },
   {
-   "id": "fcb469a5827b8fd8",
-   "zrodlo": "listaprzetargow.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://listaprzetargow.pl/oferty/538007-przetarg-mieszkanie-katowice-slaskie",
-   "pierwsze_wykrycie": "2026-09-22",
-   "adres": null,
-   "miasto": "Bytom",
-   "dzielnica": null,
-   "cena_wywolawcza": 99000,
-   "metraz": 33.82,
-   "pokoje": 1,
-   "pietro": "1",
-   "data_licytacji": "2026-09-23",
-   "wadium": 9900,
-   "typ_postepowania": "przetarg",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
-   },
-   "perelka": false,
-   "notatka": "2927 zł/m²; brak ulicy w ogłoszeniu",
-   "niekompletna": true,
-   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
-   "cena_za_m2": 2927
-  },
-  {
    "id": "6980fa41a07c6d7d",
    "zrodlo": "przetargi.adradar.pl",
    "zrodla_dodatkowe": [],
@@ -467,6 +430,43 @@
    "niekompletna": false,
    "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: LOKAL MIESZKALNY STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ Lokal mieszkalny stanowiący odrębną nieruchomość położony w Bytomiu przy ul. Tuwima ***/***. Budynek 4 piętrowy, wybudowany w 1980 roku. Budynek zewnętrznie zadbany, klatka schodowa wymaga małego remontu, stan techniczny dobry. Otoczenie budynku sprawia pozytywne wrażenie. Mieszkanie usytuowane jest na trzecim piętrze i składa się z 2 pokoi, kuchni, łazienki i przedpokoju. Powierzchnia ...",
    "cena_za_m2": 3112
+  },
+  {
+   "id": "036b7a82fcdddd75",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Mydlice/licytacje_komornicze/17790255",
+   "pierwsze_wykrycie": "2026-09-23",
+   "adres": "Norwida",
+   "miasto": "Dąbrowa Górnicza",
+   "dzielnica": "Mydlice",
+   "cena_wywolawcza": 162750,
+   "metraz": 47.0,
+   "pokoje": 2,
+   "pietro": null,
+   "data_licytacji": "2026-10-01",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
+   },
+   "perelka": false,
+   "notatka": "3463 zł/m²",
+   "niekompletna": false,
+   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: NIERUCHOMOŚĆ LOKALOWA WRAZ Z UDZIAŁEM 107/10000 CZĘŚCI W NIERUCHOMOŚCI WSPÓLNEJ Lokal o pow. użytkowej 46,51 m2 usytuowany jest na pierwszym piętrze w ekspozycji dwustronnej, z balkonem. Do lokalu przynależy komórka w piwnicy o pow. 10,95 m2. Lokal składa się z dwóch pokoi, kuchni, łazienki z wc i przedpokoju. Pomieszczenia w układzie rozkładowym. Lokal mieści się w budynku wielolokalowym czterokondygnacyjnym podpiwniczonym, ocieplony...",
+   "cena_za_m2": 3463
   },
   {
    "id": "adab5bdf0395bc47",
