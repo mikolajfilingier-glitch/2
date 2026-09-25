@@ -1,5 +1,5 @@
 {
- "wygenerowano": "2026-09-24T05:22:39+00:00",
+ "wygenerowano": "2026-09-25T05:22:52+00:00",
  "prog_podstawowy": 180000,
  "prog_perelki": 220000,
  "odrzucone_filtrem": 17,
@@ -7,7 +7,7 @@
   {
    "nazwa": "przetargi.adradar.pl",
    "ok": true,
-   "liczba": 12,
+   "liczba": 11,
    "uwaga": "Lista niefiltrowana (filtr 'mieszkania' przekierowuje na archiwum) — typ nieruchomości odsiewany po stronie skryptu. Bez płatnego dostępu portal pokazuje tylko część aktualnych ogłoszeń."
   },
   {
@@ -393,43 +393,6 @@
    "niekompletna": true,
    "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
    "cena_za_m2": 3063
-  },
-  {
-   "id": "25de9bf2fb473088",
-   "zrodlo": "przetargi.adradar.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Rozbark/licytacje_komornicze/17640918",
-   "pierwsze_wykrycie": "2026-09-18",
-   "adres": "Tuwima",
-   "miasto": "Bytom",
-   "dzielnica": "Rozbark",
-   "cena_wywolawcza": 124500,
-   "metraz": 40.0,
-   "pokoje": 2,
-   "pietro": null,
-   "data_licytacji": "2026-09-24",
-   "wadium": null,
-   "typ_postepowania": "licytacja komornicza",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
-   },
-   "perelka": false,
-   "notatka": "3112 zł/m²",
-   "niekompletna": false,
-   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: LOKAL MIESZKALNY STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ Lokal mieszkalny stanowiący odrębną nieruchomość położony w Bytomiu przy ul. Tuwima ***/***. Budynek 4 piętrowy, wybudowany w 1980 roku. Budynek zewnętrznie zadbany, klatka schodowa wymaga małego remontu, stan techniczny dobry. Otoczenie budynku sprawia pozytywne wrażenie. Mieszkanie usytuowane jest na trzecim piętrze i składa się z 2 pokoi, kuchni, łazienki i przedpokoju. Powierzchnia ...",
-   "cena_za_m2": 3112
   },
   {
    "id": "036b7a82fcdddd75",
