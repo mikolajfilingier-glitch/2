@@ -1,8 +1,8 @@
 {
- "wygenerowano": "2026-09-28T05:24:58+00:00",
+ "wygenerowano": "2026-09-29T05:24:32+00:00",
  "prog_podstawowy": 180000,
  "prog_perelki": 220000,
- "odrzucone_filtrem": 18,
+ "odrzucone_filtrem": 17,
  "zrodla": [
   {
    "nazwa": "przetargi.adradar.pl",
@@ -13,7 +13,7 @@
   {
    "nazwa": "listaprzetargow.pl",
    "ok": true,
-   "liczba": 25,
+   "liczba": 24,
    "uwaga": "Dokładna ulica i kontakt są ukryte za płatnym dostępem portalu — widoczne jest tylko miasto, czasem dzielnica."
   },
   {
@@ -136,43 +136,6 @@
    "cena_za_m2": 2399
   },
   {
-   "id": "60ec509bba5a0860",
-   "zrodlo": "listaprzetargow.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://listaprzetargow.pl/oferty/538551-przetarg-mieszkanie-katowice-slaskie",
-   "pierwsze_wykrycie": "2026-09-16",
-   "adres": null,
-   "miasto": "Katowice",
-   "dzielnica": null,
-   "cena_wywolawcza": 87600,
-   "metraz": 34.8,
-   "pokoje": 1,
-   "pietro": "parter",
-   "data_licytacji": "2026-09-29",
-   "wadium": 8760,
-   "typ_postepowania": "przetarg",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
-   },
-   "perelka": false,
-   "notatka": "2517 zł/m²; brak ulicy w ogłoszeniu",
-   "niekompletna": true,
-   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
-   "cena_za_m2": 2517
-  },
-  {
    "id": "df7f0e94914724c7",
    "zrodlo": "przetargi.adradar.pl",
    "zrodla_dodatkowe": [],
@@ -284,6 +247,43 @@
    "cena_za_m2": 2763
   },
   {
+   "id": "04041d6ccf1e6511",
+   "zrodlo": "listaprzetargow.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://listaprzetargow.pl/oferty/540097-przetarg-mieszkanie-katowice-slaskie",
+   "pierwsze_wykrycie": "2026-09-29",
+   "adres": null,
+   "miasto": "Katowice",
+   "dzielnica": null,
+   "cena_wywolawcza": 217256,
+   "metraz": 72.23,
+   "pokoje": 3,
+   "pietro": "2",
+   "data_licytacji": "2026-10-02",
+   "wadium": 21726,
+   "typ_postepowania": "przetarg",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": true,
+   "notatka": "3008 zł/m²; powyżej progu o 37 256 zł; duży metraż; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
+   "cena_za_m2": 3008
+  },
+  {
    "id": "5aa26e4419355da5",
    "zrodlo": "listaprzetargow.pl",
    "zrodla_dodatkowe": [],
@@ -356,43 +356,6 @@
    "niekompletna": false,
    "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: NIERUCHOMOŚĆ LOKALOWA WRAZ Z UDZIAŁEM 107/10000 CZĘŚCI W NIERUCHOMOŚCI WSPÓLNEJ Lokal o pow. użytkowej 46,51 m2 usytuowany jest na pierwszym piętrze w ekspozycji dwustronnej, z balkonem. Do lokalu przynależy komórka w piwnicy o pow. 10,95 m2. Lokal składa się z dwóch pokoi, kuchni, łazienki z wc i przedpokoju. Pomieszczenia w układzie rozkładowym. Lokal mieści się w budynku wielolokalowym czterokondygnacyjnym podpiwniczonym, ocieplony...",
    "cena_za_m2": 3463
-  },
-  {
-   "id": "adab5bdf0395bc47",
-   "zrodlo": "listaprzetargow.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://listaprzetargow.pl/oferty/538550-przetarg-mieszkanie-katowice-slaskie",
-   "pierwsze_wykrycie": "2026-09-16",
-   "adres": null,
-   "miasto": "Katowice",
-   "dzielnica": null,
-   "cena_wywolawcza": 136800,
-   "metraz": 35.99,
-   "pokoje": 1,
-   "pietro": "2",
-   "data_licytacji": "2026-09-29",
-   "wadium": 13680,
-   "typ_postepowania": "przetarg",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
-   },
-   "perelka": false,
-   "notatka": "3801 zł/m²; brak ulicy w ogłoszeniu",
-   "niekompletna": true,
-   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
-   "cena_za_m2": 3801
   },
   {
    "id": "b70c3010768d6ec9",
@@ -615,6 +578,43 @@
    "niekompletna": true,
    "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
    "cena_za_m2": 4430
+  },
+  {
+   "id": "6b81374cf37a724d",
+   "zrodlo": "listaprzetargow.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://listaprzetargow.pl/oferty/542687-przetarg-mieszkanie-katowice-slaskie",
+   "pierwsze_wykrycie": "2026-09-29",
+   "adres": null,
+   "miasto": "Katowice",
+   "dzielnica": null,
+   "cena_wywolawcza": 130000,
+   "metraz": 22.12,
+   "pokoje": null,
+   "pietro": null,
+   "data_licytacji": "2026-10-09",
+   "wadium": 13000,
+   "typ_postepowania": "przetarg",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": false,
+   "notatka": "5877 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
+   "cena_za_m2": 5877
   }
  ]
 }
