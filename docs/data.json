@@ -1,13 +1,13 @@
 {
- "wygenerowano": "2026-09-30T05:24:47+00:00",
+ "wygenerowano": "2026-10-01T05:24:27+00:00",
  "prog_podstawowy": 180000,
  "prog_perelki": 220000,
- "odrzucone_filtrem": 5,
+ "odrzucone_filtrem": 6,
  "zrodla": [
   {
    "nazwa": "przetargi.adradar.pl",
    "ok": true,
-   "liczba": 9,
+   "liczba": 13,
    "uwaga": "Lista niefiltrowana (filtr 'mieszkania' przekierowuje na archiwum) — typ nieruchomości odsiewany po stronie skryptu. Bez płatnego dostępu portal pokazuje tylko część aktualnych ogłoszeń."
   },
   {
@@ -62,19 +62,19 @@
    "cena_za_m2": 1782
   },
   {
-   "id": "df7f0e94914724c7",
+   "id": "a647b9a8d0d0fa36",
    "zrodlo": "przetargi.adradar.pl",
    "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Orzeg%C3%B3w/licytacje_komornicze/17691229",
-   "pierwsze_wykrycie": "2026-09-19",
-   "adres": "Orzegowska",
-   "miasto": "Ruda Śląska",
-   "dzielnica": "Orzegów",
-   "cena_wywolawcza": 125925,
-   "metraz": 50.0,
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Z%C4%85bkowice/licytacje_komornicze/17790168",
+   "pierwsze_wykrycie": "2026-10-01",
+   "adres": "Aleja Zwycięstwa",
+   "miasto": "Dąbrowa Górnicza",
+   "dzielnica": "Ząbkowice",
+   "cena_wywolawcza": 101625,
+   "metraz": 43.0,
    "pokoje": 2,
    "pietro": null,
-   "data_licytacji": "2026-09-30",
+   "data_licytacji": "2026-10-09",
    "wadium": null,
    "typ_postepowania": "licytacja komornicza",
    "stan_prawny_uwagi": null,
@@ -93,10 +93,10 @@
     "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
    },
    "perelka": false,
-   "notatka": "2518 zł/m²",
+   "notatka": "2363 zł/m²",
    "niekompletna": false,
-   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: LOKAL MIESZKALNY STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ Przedmiotem licytacji jest prawo własności nieruchomości lokalowej – lokalu mieszkalnego nr ***, znajdującego się w budynku wielorodzinnym przy ul. Orzegowskiej *** w Rudzie Śląskiej (dzielnica Ruda). Dla nieruchomości prowadzona jest księga wieczysta nr ***. Charakterystyka lokalu: Powierzchnia użytkowa: 49,88 m2. Kondygnacja: II kondygnacja (I piętro). Układ funkcjonalny: 2 pokoje, ku...",
-   "cena_za_m2": 2518
+   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: LOKAL STANOWIĄCY OSOBNĄ NIERUCHOMOŚĆ WRAZ Z PRAWEM ZWIĄZANYM STANOWIĄCYM UDZIAŁ 71/10000 W NIERUCHOMOŚCI WSPÓLNEJ, KTÓRĄ STANOWI GRUNT ORAZ CZĘŚCI BUDYNKU I URZĄDZENIA, KTÓRE NIE SŁUŻĄ WYŁĄCZNIE DO UŻYTKU WŁAŚCICIELI LOKALI Lokal mieszkalny położony w budynku wielomieszkaniowym wybudowanym w technologii szkieletu stalowego typu ZLS w 1980 roku. Lokal położony na parterze budynku. Powierzchnia lokalu to 42,99 m2, do lokalu przynależy k...",
+   "cena_za_m2": 2363
   },
   {
    "id": "658f29f9a8d62f11",
@@ -136,6 +136,43 @@
    "cena_za_m2": 2763
   },
   {
+   "id": "2b70512cb853c56e",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Siemianowice+%C5%9Al%C4%85skie/licytacje_komornicze/17783748",
+   "pierwsze_wykrycie": "2026-10-01",
+   "adres": "Kasprzaka",
+   "miasto": "Siemianowice Śląskie",
+   "dzielnica": null,
+   "cena_wywolawcza": 104000,
+   "metraz": 37.0,
+   "pokoje": 1,
+   "pietro": null,
+   "data_licytacji": "2026-10-14",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
+   },
+   "perelka": false,
+   "notatka": "2811 zł/m²",
+   "niekompletna": false,
+   "opis": "druga licytacja w trybie elektronicznym nieruchomości: LOKAL STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ Przedmiotem licytacji jest: nieruchomość lokalowa stanowiąca lokal mieszkalny nr ***, położony w Siemianowicach Śląskich przy ul. Marcina Kasprzaka ***, dla której Sąd Rejonowy w Siemianowicach Śląskich, IV Wydział Ksiąg Wieczystych prowadzi księgę wieczystą nr ***. Lokal stanowi odrębną nieruchomość i położony jest na V kondygnacji nadziemnej (IV piętrze) budynku mieszkalnego wielolokalowego. Powier...",
+   "cena_za_m2": 2811
+  },
+  {
    "id": "036b7a82fcdddd75",
    "zrodlo": "przetargi.adradar.pl",
    "zrodla_dodatkowe": [],
@@ -171,6 +208,80 @@
    "niekompletna": false,
    "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: NIERUCHOMOŚĆ LOKALOWA WRAZ Z UDZIAŁEM 107/10000 CZĘŚCI W NIERUCHOMOŚCI WSPÓLNEJ Lokal o pow. użytkowej 46,51 m2 usytuowany jest na pierwszym piętrze w ekspozycji dwustronnej, z balkonem. Do lokalu przynależy komórka w piwnicy o pow. 10,95 m2. Lokal składa się z dwóch pokoi, kuchni, łazienki z wc i przedpokoju. Pomieszczenia w układzie rozkładowym. Lokal mieści się w budynku wielolokalowym czterokondygnacyjnym podpiwniczonym, ocieplony...",
    "cena_za_m2": 3463
+  },
+  {
+   "id": "89030b570ea34042",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Zatorze/licytacje_komornicze/17796544",
+   "pierwsze_wykrycie": "2026-10-01",
+   "adres": "ul. Chodkiewicza",
+   "miasto": "Gliwice",
+   "dzielnica": "Zatorze",
+   "cena_wywolawcza": 154000,
+   "metraz": 31.0,
+   "pokoje": 1,
+   "pietro": null,
+   "data_licytacji": "2026-10-09",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
+   },
+   "perelka": false,
+   "notatka": "4968 zł/m²",
+   "niekompletna": false,
+   "opis": "druga licytacja nieruchomości: ***LOKAL MIESZKALNY POŁOŻONY 44-100 GLIWICE UL. CHODKIEWICZA ***/***.*** samodzielny lokal mieszkalny o powierzchni 30,51m2 z przynależną piwnicą o powierzchni 2,03m2 i udziałem 9/100 w częściach wspólnych nieruchomości zapisanej w księdze wieczystej ***; lokal położony jest na parterze (1 kondygnacja) w budynku mieszkalnym wielorodzinnym położonym w Gliwicach, obręb geodezyjny Zatorze przy ulicy Chodkiewicza ***; lokal składa się z 1 pokoju, kuchni, łazienki z...",
+   "cena_za_m2": 4968
+  },
+  {
+   "id": "9618ee144d0a4fe9",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Czelad%C5%BA/licytacje_komornicze/17768508",
+   "pierwsze_wykrycie": "2026-10-01",
+   "adres": null,
+   "miasto": "Czeladź",
+   "dzielnica": null,
+   "cena_wywolawcza": 48000,
+   "metraz": null,
+   "pokoje": null,
+   "pietro": null,
+   "data_licytacji": "2026-10-13",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": false,
+   "notatka": "brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "pierwsza licytacja nieruchomości: ***MIESZKANIE*** lokal mieszkalny o pow. użytkowej 9,16m2 ***Adres nieruchomości*** ul. 3 Kwietnia ***/***, 41-250 Czeladź, poczta Czeladź ***Przeznaczenie gospodarcze nieruchomości*** Teren zabudowy mieszkaniowej wielorodzinnej ***Dla nieruchomości prowadzona jest dokumentacja*** księga wieczysta (NKW) o numerze ***, Sąd Rejonowy w Czeladzi IV Wydział Ksiąg Wieczystych ***Dłużnik*** *** ***",
+   "cena_za_m2": null
   }
  ]
 }
