@@ -1,13 +1,13 @@
 {
- "wygenerowano": "2026-10-05T05:28:51+00:00",
+ "wygenerowano": "2026-10-06T05:24:42+00:00",
  "prog_podstawowy": 180000,
  "prog_perelki": 220000,
- "odrzucone_filtrem": 8,
+ "odrzucone_filtrem": 9,
  "zrodla": [
   {
    "nazwa": "przetargi.adradar.pl",
    "ok": true,
-   "liczba": 12,
+   "liczba": 15,
    "uwaga": "Lista niefiltrowana (filtr 'mieszkania' przekierowuje na archiwum) — typ nieruchomości odsiewany po stronie skryptu. Bez płatnego dostępu portal pokazuje tylko część aktualnych ogłoszeń."
   },
   {
@@ -24,6 +24,43 @@
   }
  ],
  "oferty": [
+  {
+   "id": "857ededdfabb222b",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Bytom/licytacje_komornicze/17751405",
+   "pierwsze_wykrycie": "2026-10-06",
+   "adres": "Karola Miarki",
+   "miasto": "Bytom",
+   "dzielnica": null,
+   "cena_wywolawcza": 194100,
+   "metraz": 122.0,
+   "pokoje": 4,
+   "pietro": null,
+   "data_licytacji": "2026-10-15",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
+   },
+   "perelka": true,
+   "notatka": "1591 zł/m²; powyżej progu o 14 100 zł; duży metraż",
+   "niekompletna": false,
+   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: NIERUCHOMOŚĆ ZAPISANA W KW *** OPISANA JAKO LOKAL STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ. POŁOŻENIE BYTOM, MIARKI, ***/*** I ***A. Nieruchomość lokalowa stanowiąca samodzielny lokal mieszkalny nr *** i ***a o powierzchni użytkowej 121,60 m2, usytuowana na czwartym piętrze budynku wielomieszkaniowego, wielorodzinnego, położonego w Bytomiu przy ulicy Karola Miarki ***. Budynek zlokalizowany jest na działce nr *** z obrębu 0002 Bytom. Udział zw...",
+   "cena_za_m2": 1591
+  },
   {
    "id": "a647b9a8d0d0fa36",
    "zrodlo": "przetargi.adradar.pl",
@@ -60,6 +97,43 @@
    "niekompletna": false,
    "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: LOKAL STANOWIĄCY OSOBNĄ NIERUCHOMOŚĆ WRAZ Z PRAWEM ZWIĄZANYM STANOWIĄCYM UDZIAŁ 71/10000 W NIERUCHOMOŚCI WSPÓLNEJ, KTÓRĄ STANOWI GRUNT ORAZ CZĘŚCI BUDYNKU I URZĄDZENIA, KTÓRE NIE SŁUŻĄ WYŁĄCZNIE DO UŻYTKU WŁAŚCICIELI LOKALI Lokal mieszkalny położony w budynku wielomieszkaniowym wybudowanym w technologii szkieletu stalowego typu ZLS w 1980 roku. Lokal położony na parterze budynku. Powierzchnia lokalu to 42,99 m2, do lokalu przynależy k...",
    "cena_za_m2": 2363
+  },
+  {
+   "id": "383bfb4db0f8fd48",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Ruda+%C5%9Al%C4%85ska/licytacje_komornicze/17751563",
+   "pierwsze_wykrycie": "2026-10-06",
+   "adres": "NOWAKA",
+   "miasto": "Ruda Śląska",
+   "dzielnica": null,
+   "cena_wywolawcza": 84667,
+   "metraz": 35.0,
+   "pokoje": 1,
+   "pietro": null,
+   "data_licytacji": "2026-10-15",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
+   },
+   "perelka": false,
+   "notatka": "2419 zł/m²",
+   "niekompletna": false,
+   "opis": "druga licytacja w trybie elektronicznym nieruchomości: SPÓŁDZIELCZE WŁASNOŚCIOWE PRAWO DO LOKALU MIESZKALNEGO NR *** SPÓŁDZIELCZE WŁASNOŚCIOWE PRAWO DO LOKALU MIESZKALNEGO ***Adres nieruchomości*** NOWAKA ***/***, 41-712 RUDA ŚLĄSKA, poczta Ruda Śląska ***Przeznaczenie gospodarcze nieruchomości*** Tereny mieszkaniowe ***Dla nieruchomości prowadzona jest dokumentacja*** księga wieczysta (NKW) o numerze ***, Sąd Rejonowy w Rudzie Śląskiej V Wydział Ksiąg Wieczystych ***",
+   "cena_za_m2": 2419
   },
   {
    "id": "2b70512cb853c56e",
