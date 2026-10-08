@@ -1,13 +1,13 @@
 {
- "wygenerowano": "2026-10-07T05:25:39+00:00",
+ "wygenerowano": "2026-10-08T05:25:22+00:00",
  "prog_podstawowy": 180000,
  "prog_perelki": 220000,
- "odrzucone_filtrem": 9,
+ "odrzucone_filtrem": 7,
  "zrodla": [
   {
    "nazwa": "przetargi.adradar.pl",
    "ok": true,
-   "liczba": 15,
+   "liczba": 13,
    "uwaga": "Lista niefiltrowana (filtr 'mieszkania' przekierowuje na archiwum) — typ nieruchomości odsiewany po stronie skryptu. Bez płatnego dostępu portal pokazuje tylko część aktualnych ogłoszeń."
   },
   {
