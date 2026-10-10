@@ -1,13 +1,13 @@
 {
- "wygenerowano": "2026-10-09T11:51:55+00:00",
+ "wygenerowano": "2026-10-10T11:09:25+00:00",
  "prog_podstawowy": 180000,
  "prog_perelki": 220000,
- "odrzucone_filtrem": 6,
+ "odrzucone_filtrem": 4,
  "zrodla": [
   {
    "nazwa": "przetargi.adradar.pl",
    "ok": true,
-   "liczba": 12,
+   "liczba": 8,
    "uwaga": "Lista niefiltrowana (filtr 'mieszkania' przekierowuje na archiwum) — typ nieruchomości odsiewany po stronie skryptu. Bez płatnego dostępu portal pokazuje tylko część aktualnych ogłoszeń."
   },
   {
@@ -60,43 +60,6 @@
    "niekompletna": false,
    "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: NIERUCHOMOŚĆ ZAPISANA W KW *** OPISANA JAKO LOKAL STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ. POŁOŻENIE BYTOM, MIARKI, ***/*** I ***A. Nieruchomość lokalowa stanowiąca samodzielny lokal mieszkalny nr *** i ***a o powierzchni użytkowej 121,60 m2, usytuowana na czwartym piętrze budynku wielomieszkaniowego, wielorodzinnego, położonego w Bytomiu przy ulicy Karola Miarki ***. Budynek zlokalizowany jest na działce nr *** z obrębu 0002 Bytom. Udział zw...",
    "cena_za_m2": 1591
-  },
-  {
-   "id": "a647b9a8d0d0fa36",
-   "zrodlo": "przetargi.adradar.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Z%C4%85bkowice/licytacje_komornicze/17790168",
-   "pierwsze_wykrycie": "2026-10-01",
-   "adres": "Aleja Zwycięstwa",
-   "miasto": "Dąbrowa Górnicza",
-   "dzielnica": "Ząbkowice",
-   "cena_wywolawcza": 101625,
-   "metraz": 43.0,
-   "pokoje": 2,
-   "pietro": null,
-   "data_licytacji": "2026-10-09",
-   "wadium": null,
-   "typ_postepowania": "licytacja komornicza",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
-   },
-   "perelka": false,
-   "notatka": "2363 zł/m²",
-   "niekompletna": false,
-   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: LOKAL STANOWIĄCY OSOBNĄ NIERUCHOMOŚĆ WRAZ Z PRAWEM ZWIĄZANYM STANOWIĄCYM UDZIAŁ 71/10000 W NIERUCHOMOŚCI WSPÓLNEJ, KTÓRĄ STANOWI GRUNT ORAZ CZĘŚCI BUDYNKU I URZĄDZENIA, KTÓRE NIE SŁUŻĄ WYŁĄCZNIE DO UŻYTKU WŁAŚCICIELI LOKALI Lokal mieszkalny położony w budynku wielomieszkaniowym wybudowanym w technologii szkieletu stalowego typu ZLS w 1980 roku. Lokal położony na parterze budynku. Powierzchnia lokalu to 42,99 m2, do lokalu przynależy k...",
-   "cena_za_m2": 2363
   },
   {
    "id": "383bfb4db0f8fd48",
@@ -171,43 +134,6 @@
    "niekompletna": false,
    "opis": "druga licytacja w trybie elektronicznym nieruchomości: LOKAL STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ Przedmiotem licytacji jest: nieruchomość lokalowa stanowiąca lokal mieszkalny nr ***, położony w Siemianowicach Śląskich przy ul. Marcina Kasprzaka ***, dla której Sąd Rejonowy w Siemianowicach Śląskich, IV Wydział Ksiąg Wieczystych prowadzi księgę wieczystą nr ***. Lokal stanowi odrębną nieruchomość i położony jest na V kondygnacji nadziemnej (IV piętrze) budynku mieszkalnego wielolokalowego. Powier...",
    "cena_za_m2": 2811
-  },
-  {
-   "id": "89030b570ea34042",
-   "zrodlo": "przetargi.adradar.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Zatorze/licytacje_komornicze/17796544",
-   "pierwsze_wykrycie": "2026-10-01",
-   "adres": "ul. Chodkiewicza",
-   "miasto": "Gliwice",
-   "dzielnica": "Zatorze",
-   "cena_wywolawcza": 154000,
-   "metraz": 31.0,
-   "pokoje": 1,
-   "pietro": null,
-   "data_licytacji": "2026-10-09",
-   "wadium": null,
-   "typ_postepowania": "licytacja komornicza",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
-   },
-   "perelka": false,
-   "notatka": "4968 zł/m²",
-   "niekompletna": false,
-   "opis": "druga licytacja nieruchomości: ***LOKAL MIESZKALNY POŁOŻONY 44-100 GLIWICE UL. CHODKIEWICZA ***/***.*** samodzielny lokal mieszkalny o powierzchni 30,51m2 z przynależną piwnicą o powierzchni 2,03m2 i udziałem 9/100 w częściach wspólnych nieruchomości zapisanej w księdze wieczystej ***; lokal położony jest na parterze (1 kondygnacja) w budynku mieszkalnym wielorodzinnym położonym w Gliwicach, obręb geodezyjny Zatorze przy ulicy Chodkiewicza ***; lokal składa się z 1 pokoju, kuchni, łazienki z...",
-   "cena_za_m2": 4968
   },
   {
    "id": "9618ee144d0a4fe9",
