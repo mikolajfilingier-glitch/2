@@ -1,13 +1,13 @@
 {
- "wygenerowano": "2026-10-15T09:49:57+00:00",
+ "wygenerowano": "2026-10-16T09:43:20+00:00",
  "prog_podstawowy": 180000,
  "prog_perelki": 220000,
- "odrzucone_filtrem": 3,
+ "odrzucone_filtrem": 4,
  "zrodla": [
   {
    "nazwa": "przetargi.adradar.pl",
    "ok": true,
-   "liczba": 5,
+   "liczba": 7,
    "uwaga": "Lista niefiltrowana (filtr 'mieszkania' przekierowuje na archiwum) — typ nieruchomości odsiewany po stronie skryptu. Bez płatnego dostępu portal pokazuje tylko część aktualnych ogłoszeń."
   },
   {
@@ -25,56 +25,19 @@
  ],
  "oferty": [
   {
-   "id": "857ededdfabb222b",
+   "id": "985229eb6208638d",
    "zrodlo": "przetargi.adradar.pl",
    "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Bytom/licytacje_komornicze/17751405",
-   "pierwsze_wykrycie": "2026-10-06",
-   "adres": "Karola Miarki",
-   "miasto": "Bytom",
-   "dzielnica": null,
-   "cena_wywolawcza": 194100,
-   "metraz": 122.0,
-   "pokoje": 4,
-   "pietro": null,
-   "data_licytacji": "2026-10-15",
-   "wadium": null,
-   "typ_postepowania": "licytacja komornicza",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
-   },
-   "perelka": true,
-   "notatka": "1591 zł/m²; powyżej progu o 14 100 zł; duży metraż",
-   "niekompletna": false,
-   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: NIERUCHOMOŚĆ ZAPISANA W KW *** OPISANA JAKO LOKAL STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ. POŁOŻENIE BYTOM, MIARKI, ***/*** I ***A. Nieruchomość lokalowa stanowiąca samodzielny lokal mieszkalny nr *** i ***a o powierzchni użytkowej 121,60 m2, usytuowana na czwartym piętrze budynku wielomieszkaniowego, wielorodzinnego, położonego w Bytomiu przy ulicy Karola Miarki ***. Budynek zlokalizowany jest na działce nr *** z obrębu 0002 Bytom. Udział zw...",
-   "cena_za_m2": 1591
-  },
-  {
-   "id": "383bfb4db0f8fd48",
-   "zrodlo": "przetargi.adradar.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Ruda+%C5%9Al%C4%85ska/licytacje_komornicze/17751563",
-   "pierwsze_wykrycie": "2026-10-06",
-   "adres": "NOWAKA",
-   "miasto": "Ruda Śląska",
-   "dzielnica": null,
-   "cena_wywolawcza": 84667,
-   "metraz": 35.0,
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Hajduki+Wielkie/licytacje_komornicze/17795005",
+   "pierwsze_wykrycie": "2026-10-16",
+   "adres": "Ratuszowa",
+   "miasto": "Chorzów",
+   "dzielnica": "Hajduki Wielkie",
+   "cena_wywolawcza": 59250,
+   "metraz": 23.0,
    "pokoje": 1,
    "pietro": null,
-   "data_licytacji": "2026-10-15",
+   "data_licytacji": "2026-10-22",
    "wadium": null,
    "typ_postepowania": "licytacja komornicza",
    "stan_prawny_uwagi": null,
@@ -93,10 +56,84 @@
     "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
    },
    "perelka": false,
-   "notatka": "2419 zł/m²",
+   "notatka": "2576 zł/m²",
    "niekompletna": false,
-   "opis": "druga licytacja w trybie elektronicznym nieruchomości: SPÓŁDZIELCZE WŁASNOŚCIOWE PRAWO DO LOKALU MIESZKALNEGO NR *** SPÓŁDZIELCZE WŁASNOŚCIOWE PRAWO DO LOKALU MIESZKALNEGO ***Adres nieruchomości*** NOWAKA ***/***, 41-712 RUDA ŚLĄSKA, poczta Ruda Śląska ***Przeznaczenie gospodarcze nieruchomości*** Tereny mieszkaniowe ***Dla nieruchomości prowadzona jest dokumentacja*** księga wieczysta (NKW) o numerze ***, Sąd Rejonowy w Rudzie Śląskiej V Wydział Ksiąg Wieczystych ***",
-   "cena_za_m2": 2419
+   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: CHORZÓW, LOKAL MIESZKALNY UL. RATUSZOWA *** | 23,21 M2 + PIWNICA Lokal nr *** położony jest na parterze w budynku przy ulicy Ratuszowej *** w Chorzowie. Zgodnie z księgą wieczystą lokal mieszkalny numer ***, składa się z 1 pokoju i kuchni, Faktycznie lokal składa się z pokoju, kuchni oraz łazienki wydzielonej z części kuchni o łącznej powierzchni użytkowej 23,21 m2 wraz z przynależną do tego lokalu piwnicą numer *** o powierzchni 9,8 ...",
+   "cena_za_m2": 2576
+  },
+  {
+   "id": "fc95728a4e1242c9",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/B%C4%99dzin/licytacje_komornicze/17833571",
+   "pierwsze_wykrycie": "2026-10-16",
+   "adres": "Barlickiego",
+   "miasto": "Będzin",
+   "dzielnica": null,
+   "cena_wywolawcza": 116250,
+   "metraz": 40.0,
+   "pokoje": 2,
+   "pietro": null,
+   "data_licytacji": "2026-10-22",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
+   },
+   "perelka": false,
+   "notatka": "2906 zł/m²",
+   "niekompletna": false,
+   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: ***LOKAL STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ, POŁOŻONY W BĘDZINIE PRZY ULICY BARLICKIEGO ***/***, DLA KTÓREGO SĄD REJONOWY W BĘDZINIE PROWADZI KW O NUMERZE: ***/***/\\*** Lokal mieszkalny stanowiący odrębną nieruchomość, oznaczony nr ***, położony na czwartym piętrze w budynku mieszkalnym nr *** przy ulicy Barlickiego w Będzinie. Dla lokalu prowadzona jest księga wieczysta o numerze ***/***/\\***. Lokal złożony jest z dwóch pokoi, kuchni, p...",
+   "cena_za_m2": 2906
+  },
+  {
+   "id": "1ab8b6c81ee8e4d6",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/%C5%9Ar%C3%B3dmie%C5%9Bcie/licytacje_komornicze/17846836",
+   "pierwsze_wykrycie": "2026-10-16",
+   "adres": "Królowej Jadwigi",
+   "miasto": "Dąbrowa Górnicza",
+   "dzielnica": "Śródmieście",
+   "cena_wywolawcza": 126150,
+   "metraz": 35.0,
+   "pokoje": 2,
+   "pietro": null,
+   "data_licytacji": "2026-10-22",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
+   },
+   "perelka": false,
+   "notatka": "3604 zł/m²",
+   "niekompletna": false,
+   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: OGRANICZONE PRAWO RZECZOWE - SPÓŁDZIELCZE WŁASNOŚCIOWE PRAWO DO LOKALU MIESZKALNEGO POŁOŻONEGO W DĄBROWIE GÓRNICZEJ PRZY UL. KRÓLOWEJ JADWIGI ***/*** I POSIADAJĄCEGO ZAŁOŻONĄ KSIĘGĘ WIECZYSTĄ O NUMERZE: ***. Powierzchnia użytkowa wynosi: 34,80 m/2. Lokal znajduje się na drugim piętrze budynku wielorodzinnego wybudowanego w ubiegłym wieku. Lokal składa się z dwóch pokoi, kuchni, przedpokoju oraz łazienki z wc. Z lokalem związane jest p...",
+   "cena_za_m2": 3604
   }
  ]
 }
