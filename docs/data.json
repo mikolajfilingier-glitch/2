@@ -1,13 +1,13 @@
 {
- "wygenerowano": "2026-10-20T10:00:14+00:00",
+ "wygenerowano": "2026-10-21T10:04:24+00:00",
  "prog_podstawowy": 180000,
  "prog_perelki": 220000,
- "odrzucone_filtrem": 4,
+ "odrzucone_filtrem": 5,
  "zrodla": [
   {
    "nazwa": "przetargi.adradar.pl",
    "ok": true,
-   "liczba": 8,
+   "liczba": 10,
    "uwaga": "Lista niefiltrowana (filtr 'mieszkania' przekierowuje na archiwum) — typ nieruchomości odsiewany po stronie skryptu. Bez płatnego dostępu portal pokazuje tylko część aktualnych ogłoszeń."
   },
   {
@@ -97,6 +97,43 @@
    "niekompletna": false,
    "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: ***LOKAL STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ, POŁOŻONY W BĘDZINIE PRZY ULICY BARLICKIEGO ***/***, DLA KTÓREGO SĄD REJONOWY W BĘDZINIE PROWADZI KW O NUMERZE: ***/***/\\*** Lokal mieszkalny stanowiący odrębną nieruchomość, oznaczony nr ***, położony na czwartym piętrze w budynku mieszkalnym nr *** przy ulicy Barlickiego w Będzinie. Dla lokalu prowadzona jest księga wieczysta o numerze ***/***/\\***. Lokal złożony jest z dwóch pokoi, kuchni, p...",
    "cena_za_m2": 2906
+  },
+  {
+   "id": "e8b1eb438e81e5a1",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Centrum/licytacje_komornicze/17468542",
+   "pierwsze_wykrycie": "2026-10-21",
+   "adres": "ul. Kowalska",
+   "miasto": "Zabrze",
+   "dzielnica": "Centrum",
+   "cena_wywolawcza": 108338,
+   "metraz": 35.0,
+   "pokoje": 1,
+   "pietro": null,
+   "data_licytacji": "2026-10-29",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
+   },
+   "perelka": false,
+   "notatka": "3095 zł/m²",
+   "niekompletna": false,
+   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: ***ZABRZE CENTRUM - M2, POW. 34,45 M2, VI PIĘTRO*** Lokal mieszkalny numer ***, położony na 6 piętrze budynku wielorodzinnego numer *** przy ul. Kowalskiej w Zabrzu. Lokal objęty prawem własności, dla którego prowadzona jest księga wieczysta o numerze ***. Lokal składa się z jednego pokoju, kuchni (ślepej), przedpokoju i łazienki z WC. Lokal posiada również balkon. Stan techniczny lokalu - do remontu. ***Adres nieruchomości*** ul. Kow...",
+   "cena_za_m2": 3095
   },
   {
    "id": "de4c8518cb68b7c2",
