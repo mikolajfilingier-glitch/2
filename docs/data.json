@@ -1,8 +1,8 @@
 {
- "wygenerowano": "2026-10-22T10:05:50+00:00",
+ "wygenerowano": "2026-10-23T09:59:46+00:00",
  "prog_podstawowy": 180000,
  "prog_perelki": 220000,
- "odrzucone_filtrem": 4,
+ "odrzucone_filtrem": 5,
  "zrodla": [
   {
    "nazwa": "przetargi.adradar.pl",
@@ -25,19 +25,19 @@
  ],
  "oferty": [
   {
-   "id": "985229eb6208638d",
+   "id": "d4ccfb71dade36b4",
    "zrodlo": "przetargi.adradar.pl",
    "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Hajduki+Wielkie/licytacje_komornicze/17795005",
-   "pierwsze_wykrycie": "2026-10-16",
-   "adres": "Ratuszowa",
-   "miasto": "Chorzów",
-   "dzielnica": "Hajduki Wielkie",
-   "cena_wywolawcza": 59250,
-   "metraz": 23.0,
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Czelad%C5%BA/licytacje_komornicze/17880725",
+   "pierwsze_wykrycie": "2026-10-23",
+   "adres": "Katowicka",
+   "miasto": "Czeladź",
+   "dzielnica": null,
+   "cena_wywolawcza": 80000,
+   "metraz": 40.0,
    "pokoje": 1,
    "pietro": null,
-   "data_licytacji": "2026-10-22",
+   "data_licytacji": "2026-11-02",
    "wadium": null,
    "typ_postepowania": "licytacja komornicza",
    "stan_prawny_uwagi": null,
@@ -56,47 +56,10 @@
     "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
    },
    "perelka": false,
-   "notatka": "2576 zł/m²",
+   "notatka": "2000 zł/m²",
    "niekompletna": false,
-   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: CHORZÓW, LOKAL MIESZKALNY UL. RATUSZOWA *** | 23,21 M2 + PIWNICA Lokal nr *** położony jest na parterze w budynku przy ulicy Ratuszowej *** w Chorzowie. Zgodnie z księgą wieczystą lokal mieszkalny numer ***, składa się z 1 pokoju i kuchni, Faktycznie lokal składa się z pokoju, kuchni oraz łazienki wydzielonej z części kuchni o łącznej powierzchni użytkowej 23,21 m2 wraz z przynależną do tego lokalu piwnicą numer *** o powierzchni 9,8 ...",
-   "cena_za_m2": 2576
-  },
-  {
-   "id": "fc95728a4e1242c9",
-   "zrodlo": "przetargi.adradar.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/B%C4%99dzin/licytacje_komornicze/17833571",
-   "pierwsze_wykrycie": "2026-10-16",
-   "adres": "Barlickiego",
-   "miasto": "Będzin",
-   "dzielnica": null,
-   "cena_wywolawcza": 116250,
-   "metraz": 40.0,
-   "pokoje": 2,
-   "pietro": null,
-   "data_licytacji": "2026-10-22",
-   "wadium": null,
-   "typ_postepowania": "licytacja komornicza",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
-   },
-   "perelka": false,
-   "notatka": "2906 zł/m²",
-   "niekompletna": false,
-   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: ***LOKAL STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ, POŁOŻONY W BĘDZINIE PRZY ULICY BARLICKIEGO ***/***, DLA KTÓREGO SĄD REJONOWY W BĘDZINIE PROWADZI KW O NUMERZE: ***/***/\\*** Lokal mieszkalny stanowiący odrębną nieruchomość, oznaczony nr ***, położony na czwartym piętrze w budynku mieszkalnym nr *** przy ulicy Barlickiego w Będzinie. Dla lokalu prowadzona jest księga wieczysta o numerze ***/***/\\***. Lokal złożony jest z dwóch pokoi, kuchni, p...",
-   "cena_za_m2": 2906
+   "opis": "druga licytacja w trybie elektronicznym nieruchomości: ***LOKAL MIESZKALNY 39,60M2*** lokal mieszkalny składający się z pokoju, kuchni oraz łazienki z wc o łącznej powierzchni 39,60m2 ***Adres nieruchomości*** ul. Katowicka ***/***, 41-250 Czeladź, poczta Czeladź ***Przeznaczenie gospodarcze nieruchomości*** Tereny mieszkaniowe ***Dla nieruchomości prowadzona jest dokumentacja*** księga wieczysta (NKW) o numerze ***, Sąd Rejonowy w Czeladzi IV Wydział Ksiąg Wieczystych ***",
+   "cena_za_m2": 2000
   },
   {
    "id": "e8b1eb438e81e5a1",
@@ -173,19 +136,19 @@
    "cena_za_m2": 3405
   },
   {
-   "id": "1ab8b6c81ee8e4d6",
+   "id": "990090c3fe2f3ef7",
    "zrodlo": "przetargi.adradar.pl",
    "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/%C5%9Ar%C3%B3dmie%C5%9Bcie/licytacje_komornicze/17846836",
-   "pierwsze_wykrycie": "2026-10-16",
-   "adres": "Królowej Jadwigi",
-   "miasto": "Dąbrowa Górnicza",
-   "dzielnica": "Śródmieście",
-   "cena_wywolawcza": 126150,
-   "metraz": 35.0,
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Biskupice/licytacje_komornicze/17887456",
+   "pierwsze_wykrycie": "2026-10-23",
+   "adres": "Bytomska",
+   "miasto": "Zabrze",
+   "dzielnica": "Biskupice",
+   "cena_wywolawcza": 163350,
+   "metraz": 46.0,
    "pokoje": 2,
    "pietro": null,
-   "data_licytacji": "2026-10-22",
+   "data_licytacji": "2026-11-04",
    "wadium": null,
    "typ_postepowania": "licytacja komornicza",
    "stan_prawny_uwagi": null,
@@ -204,10 +167,10 @@
     "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
    },
    "perelka": false,
-   "notatka": "3604 zł/m²",
+   "notatka": "3551 zł/m²",
    "niekompletna": false,
-   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: OGRANICZONE PRAWO RZECZOWE - SPÓŁDZIELCZE WŁASNOŚCIOWE PRAWO DO LOKALU MIESZKALNEGO POŁOŻONEGO W DĄBROWIE GÓRNICZEJ PRZY UL. KRÓLOWEJ JADWIGI ***/*** I POSIADAJĄCEGO ZAŁOŻONĄ KSIĘGĘ WIECZYSTĄ O NUMERZE: ***. Powierzchnia użytkowa wynosi: 34,80 m/2. Lokal znajduje się na drugim piętrze budynku wielorodzinnego wybudowanego w ubiegłym wieku. Lokal składa się z dwóch pokoi, kuchni, przedpokoju oraz łazienki z wc. Z lokalem związane jest p...",
-   "cena_za_m2": 3604
+   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: LOKAL STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ Nieruchomość lokalowa – stanowiąca lokal mieszkalny nr ***, położony w budynku nr ***, przy ul. Bytomskiej w Zabrzu, składający się z 2 pokoi, kuchni, łazienki. Powierzchnia lokalu mieszkalnego wynosi 45,63 m2. Do lokalu przynależy piwnica o pow. 6,67 m2. Łączna pow. lokalu mieszkalnego oraz pomieszczeń przynależnych wynosi 52,30 m2. Przeznaczenie gospodarcze – tereny mieszkaniowe. Z własnością zw...",
+   "cena_za_m2": 3551
   }
  ]
 }
