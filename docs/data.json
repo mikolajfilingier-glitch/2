@@ -1,13 +1,13 @@
 {
- "wygenerowano": "2026-10-28T11:17:17+00:00",
+ "wygenerowano": "2026-10-29T11:29:27+00:00",
  "prog_podstawowy": 180000,
  "prog_perelki": 220000,
- "odrzucone_filtrem": 1,
+ "odrzucone_filtrem": 4,
  "zrodla": [
   {
    "nazwa": "przetargi.adradar.pl",
    "ok": true,
-   "liczba": 3,
+   "liczba": 10,
    "uwaga": "Lista niefiltrowana (filtr 'mieszkania' przekierowuje na archiwum) — typ nieruchomości odsiewany po stronie skryptu. Bez płatnego dostępu portal pokazuje tylko część aktualnych ogłoszeń."
   },
   {
@@ -24,6 +24,80 @@
   }
  ],
  "oferty": [
+  {
+   "id": "d4ccfb71dade36b4",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Czelad%C5%BA/licytacje_komornicze/17880725",
+   "pierwsze_wykrycie": "2026-10-29",
+   "adres": "Katowicka",
+   "miasto": "Czeladź",
+   "dzielnica": null,
+   "cena_wywolawcza": 80000,
+   "metraz": 40.0,
+   "pokoje": 1,
+   "pietro": null,
+   "data_licytacji": "2026-11-02",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
+   },
+   "perelka": false,
+   "notatka": "2000 zł/m²",
+   "niekompletna": false,
+   "opis": "druga licytacja w trybie elektronicznym nieruchomości: ***LOKAL MIESZKALNY 39,60M2*** lokal mieszkalny składający się z pokoju, kuchni oraz łazienki z wc o łącznej powierzchni 39,60m2 ***Adres nieruchomości*** ul. Katowicka ***/***, 41-250 Czeladź, poczta Czeladź ***Przeznaczenie gospodarcze nieruchomości*** Tereny mieszkaniowe ***Dla nieruchomości prowadzona jest dokumentacja*** księga wieczysta (NKW) o numerze ***, Sąd Rejonowy w Czeladzi IV Wydział Ksiąg Wieczystych ***",
+   "cena_za_m2": 2000
+  },
+  {
+   "id": "327ed6dbe47e129a",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/B%C4%99dzin/licytacje_komornicze/17927224",
+   "pierwsze_wykrycie": "2026-10-29",
+   "adres": "Konopnickiej",
+   "miasto": "Będzin",
+   "dzielnica": null,
+   "cena_wywolawcza": 93600,
+   "metraz": 38.0,
+   "pokoje": 2,
+   "pietro": null,
+   "data_licytacji": "2026-11-04",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
+   },
+   "perelka": false,
+   "notatka": "2463 zł/m²",
+   "niekompletna": false,
+   "opis": "druga licytacja nieruchomości: LOKAL MIESZKALNY STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ Lokal mieszkalny stanowiący odrębną nieruchomość, położony w Będzinie przy ul. Marii Konopnickiej ***/*** wraz z udziałem wynoszącym 41/1000 w nieruchomości wspólnej, którą stanowi grunt oraz części budynku i urządzenia niesłużące wyłącznie do użytku właścicieli poszczególnych lokali. Lokal położy jest na parterze w budynku wielorodzinnym trzykondygnacyjnym. Powierzchnia użytkowa lokalu wynosi 37,50 mkw. Do lokal...",
+   "cena_za_m2": 2463
+  },
   {
    "id": "e8b1eb438e81e5a1",
    "zrodlo": "przetargi.adradar.pl",
@@ -62,19 +136,19 @@
    "cena_za_m2": 3095
   },
   {
-   "id": "de4c8518cb68b7c2",
+   "id": "990090c3fe2f3ef7",
    "zrodlo": "przetargi.adradar.pl",
    "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Siemianowice+%C5%9Al%C4%85skie/licytacje_komornicze/17833631",
-   "pierwsze_wykrycie": "2026-10-17",
-   "adres": "Komuny Paryskiej",
-   "miasto": "Siemianowice Śląskie",
-   "dzielnica": null,
-   "cena_wywolawcza": 126000,
-   "metraz": 37.0,
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Biskupice/licytacje_komornicze/17887456",
+   "pierwsze_wykrycie": "2026-10-29",
+   "adres": "Bytomska",
+   "miasto": "Zabrze",
+   "dzielnica": "Biskupice",
+   "cena_wywolawcza": 163350,
+   "metraz": 46.0,
    "pokoje": 2,
    "pietro": null,
-   "data_licytacji": "2026-10-28",
+   "data_licytacji": "2026-11-04",
    "wadium": null,
    "typ_postepowania": "licytacja komornicza",
    "stan_prawny_uwagi": null,
@@ -93,10 +167,84 @@
     "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
    },
    "perelka": false,
-   "notatka": "3405 zł/m²",
+   "notatka": "3551 zł/m²",
    "niekompletna": false,
-   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: LOKAL STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ Przedmiotem licytacji jest prawo odrębnej własności lokalu mieszkalnego nr ***, położonego w Siemianowicach Śląskich przy ul. Komuny Paryskiej ***/***, na 1. piętrze (II kondygnacji nadziemnej) budynku mieszkalnego wielorodzinnego. Lokal jest dwustronny, nie posiada balkonu ani pomieszczeń przechodnich. Składa się z 2 pokoi, kuchni, przedpokoju oraz łazienki z WC. Powierzchnia użytkowa lokalu wyno...",
-   "cena_za_m2": 3405
+   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: LOKAL STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ Nieruchomość lokalowa – stanowiąca lokal mieszkalny nr ***, położony w budynku nr ***, przy ul. Bytomskiej w Zabrzu, składający się z 2 pokoi, kuchni, łazienki. Powierzchnia lokalu mieszkalnego wynosi 45,63 m2. Do lokalu przynależy piwnica o pow. 6,67 m2. Łączna pow. lokalu mieszkalnego oraz pomieszczeń przynależnych wynosi 52,30 m2. Przeznaczenie gospodarcze – tereny mieszkaniowe. Z własnością zw...",
+   "cena_za_m2": 3551
+  },
+  {
+   "id": "65086985c0de691a",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Zabrze/licytacje_komornicze/17751574",
+   "pierwsze_wykrycie": "2026-10-29",
+   "adres": "Leszczynowa",
+   "miasto": "Zabrze",
+   "dzielnica": null,
+   "cena_wywolawcza": 165750,
+   "metraz": 46.0,
+   "pokoje": 3,
+   "pietro": null,
+   "data_licytacji": "2026-11-05",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
+   },
+   "perelka": false,
+   "notatka": "3603 zł/m²",
+   "niekompletna": false,
+   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: SPÓŁDZIELCZE WŁASNOŚCIOWE PRAWO DO LOKALU, ZABRZE CENTRUM, M-4, POW. 46,40 M2, 3 PIĘTRO Spółdzielcze własnościowe prawo do lokalu – lokal mieszkalny numer ***, położony na 3 piętrze budynku wielorodzinnego w Zabrzu przy ul. Leszczynowej ***, składający się z 3 pokoi, kuchni, łazienki z WC i przedpokoju, o łącznej powierzchni użytkowej 46,40 m2. Lokal pozostaje w zasobach mieszkaniowych Zabrzańskiej Spółdzielni Mieszkaniowej. Dla ogran...",
+   "cena_za_m2": 3603
+  },
+  {
+   "id": "336f823821cc8309",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Murcki/licytacje_komornicze/17954698",
+   "pierwsze_wykrycie": "2026-10-29",
+   "adres": "ul. Karola Bohdanowicza",
+   "miasto": "Katowice",
+   "dzielnica": "Murcki",
+   "cena_wywolawcza": 168000,
+   "metraz": 35.0,
+   "pokoje": 2,
+   "pietro": null,
+   "data_licytacji": "2026-11-05",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
+   },
+   "perelka": false,
+   "notatka": "4800 zł/m²",
+   "niekompletna": false,
+   "opis": "druga licytacja w trybie elektronicznym nieruchomości: ***SPÓŁDZIELCZY LOKAL MIESZKALNY*** Spółdzielcze własnościowe prawo do lokalu położonego w: 40-749 Katowice, ul. Karola Bohdanowicza ***/***, dla którego Sąd Rejonowy Katowice-Wschód w Katowicach Wydział XI Ksiąg Wieczystych prowadzi księgę wieczystą o numerze ***. ***Adres nieruchomości*** ul. Karola Bohdanowicza ***/***, 40-749 Katowice, poczta Katowice ***Przeznaczenie gospodarcze nieruchomości*** Teren zabudowy mieszkaniowej wielorod...",
+   "cena_za_m2": 4800
   }
  ]
 }
