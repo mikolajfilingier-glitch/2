@@ -1,8 +1,8 @@
 {
- "wygenerowano": "2026-10-29T11:29:27+00:00",
+ "wygenerowano": "2026-10-30T11:22:04+00:00",
  "prog_podstawowy": 180000,
  "prog_perelki": 220000,
- "odrzucone_filtrem": 4,
+ "odrzucone_filtrem": 12,
  "zrodla": [
   {
    "nazwa": "przetargi.adradar.pl",
@@ -13,8 +13,8 @@
   {
    "nazwa": "listaprzetargow.pl",
    "ok": true,
-   "liczba": 0,
-   "uwaga": "Nie udało się pobrać żadnej oferty (0 błędów)."
+   "liczba": 15,
+   "uwaga": "Dokładna ulica i kontakt są ukryte za płatnym dostępem portalu — widoczne jest tylko miasto, czasem dzielnica."
   },
   {
    "nazwa": "licytacje.komornik.pl",
@@ -99,21 +99,21 @@
    "cena_za_m2": 2463
   },
   {
-   "id": "e8b1eb438e81e5a1",
-   "zrodlo": "przetargi.adradar.pl",
+   "id": "61a507a799c58116",
+   "zrodlo": "listaprzetargow.pl",
    "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Centrum/licytacje_komornicze/17468542",
-   "pierwsze_wykrycie": "2026-10-21",
-   "adres": "ul. Kowalska",
-   "miasto": "Zabrze",
-   "dzielnica": "Centrum",
-   "cena_wywolawcza": 108338,
-   "metraz": 35.0,
-   "pokoje": 1,
+   "link": "https://listaprzetargow.pl/oferty/547683-przetarg-mieszkanie-katowice-slaskie",
+   "pierwsze_wykrycie": "2026-10-30",
+   "adres": null,
+   "miasto": "Sosnowiec",
+   "dzielnica": null,
+   "cena_wywolawcza": 115600,
+   "metraz": 46.38,
+   "pokoje": 2,
    "pietro": null,
-   "data_licytacji": "2026-10-29",
-   "wadium": null,
-   "typ_postepowania": "licytacja komornicza",
+   "data_licytacji": "2026-11-03",
+   "wadium": 11560,
+   "typ_postepowania": "przetarg",
    "stan_prawny_uwagi": null,
    "ogrzewanie": null,
    "media": {
@@ -127,13 +127,50 @@
    },
    "flaga_okolica": {
     "poziom": "brak",
-    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
    },
    "perelka": false,
-   "notatka": "3095 zł/m²",
-   "niekompletna": false,
-   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: ***ZABRZE CENTRUM - M2, POW. 34,45 M2, VI PIĘTRO*** Lokal mieszkalny numer ***, położony na 6 piętrze budynku wielorodzinnego numer *** przy ul. Kowalskiej w Zabrzu. Lokal objęty prawem własności, dla którego prowadzona jest księga wieczysta o numerze ***. Lokal składa się z jednego pokoju, kuchni (ślepej), przedpokoju i łazienki z WC. Lokal posiada również balkon. Stan techniczny lokalu - do remontu. ***Adres nieruchomości*** ul. Kow...",
-   "cena_za_m2": 3095
+   "notatka": "2492 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
+   "cena_za_m2": 2492
+  },
+  {
+   "id": "57f857ef82c1c495",
+   "zrodlo": "listaprzetargow.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://listaprzetargow.pl/oferty/545429-przetarg-mieszkanie-katowice-slaskie",
+   "pierwsze_wykrycie": "2026-10-30",
+   "adres": null,
+   "miasto": "Sosnowiec",
+   "dzielnica": null,
+   "cena_wywolawcza": 102957,
+   "metraz": 37.56,
+   "pokoje": 2,
+   "pietro": "1",
+   "data_licytacji": "2026-10-30",
+   "wadium": 10296,
+   "typ_postepowania": "przetarg",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": false,
+   "notatka": "2741 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
+   "cena_za_m2": 2741
   },
   {
    "id": "990090c3fe2f3ef7",
@@ -210,6 +247,191 @@
    "cena_za_m2": 3603
   },
   {
+   "id": "ead7c6b6127d7483",
+   "zrodlo": "listaprzetargow.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://listaprzetargow.pl/oferty/547682-przetarg-mieszkanie-katowice-slaskie",
+   "pierwsze_wykrycie": "2026-10-30",
+   "adres": null,
+   "miasto": "Sosnowiec",
+   "dzielnica": null,
+   "cena_wywolawcza": 143600,
+   "metraz": 39.38,
+   "pokoje": 2,
+   "pietro": null,
+   "data_licytacji": "2026-11-03",
+   "wadium": 14360,
+   "typ_postepowania": "przetarg",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": false,
+   "notatka": "3647 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
+   "cena_za_m2": 3647
+  },
+  {
+   "id": "a3e24de0fc4b486f",
+   "zrodlo": "listaprzetargow.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://listaprzetargow.pl/oferty/547681-przetarg-mieszkanie-katowice-slaskie",
+   "pierwsze_wykrycie": "2026-10-30",
+   "adres": null,
+   "miasto": "Sosnowiec",
+   "dzielnica": null,
+   "cena_wywolawcza": 136000,
+   "metraz": 35.72,
+   "pokoje": null,
+   "pietro": null,
+   "data_licytacji": "2026-11-03",
+   "wadium": 13600,
+   "typ_postepowania": "przetarg",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": false,
+   "notatka": "3807 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
+   "cena_za_m2": 3807
+  },
+  {
+   "id": "ae5061e774e7c688",
+   "zrodlo": "listaprzetargow.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://listaprzetargow.pl/oferty/545428-przetarg-mieszkanie-katowice-slaskie",
+   "pierwsze_wykrycie": "2026-10-30",
+   "adres": null,
+   "miasto": "Sosnowiec",
+   "dzielnica": null,
+   "cena_wywolawcza": 163400,
+   "metraz": 41.5,
+   "pokoje": 1,
+   "pietro": "parter",
+   "data_licytacji": "2026-10-30",
+   "wadium": 16340,
+   "typ_postepowania": "przetarg",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": false,
+   "notatka": "3937 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
+   "cena_za_m2": 3937
+  },
+  {
+   "id": "6a3ac0007713fcf0",
+   "zrodlo": "listaprzetargow.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://listaprzetargow.pl/oferty/545426-przetarg-mieszkanie-katowice-slaskie",
+   "pierwsze_wykrycie": "2026-10-30",
+   "adres": null,
+   "miasto": "Sosnowiec",
+   "dzielnica": null,
+   "cena_wywolawcza": 155043,
+   "metraz": 36.9,
+   "pokoje": 1,
+   "pietro": "1",
+   "data_licytacji": "2026-10-30",
+   "wadium": 15504,
+   "typ_postepowania": "przetarg",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": false,
+   "notatka": "4202 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
+   "cena_za_m2": 4202
+  },
+  {
+   "id": "bfca52096e150838",
+   "zrodlo": "listaprzetargow.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://listaprzetargow.pl/oferty/545425-przetarg-mieszkanie-katowice-slaskie",
+   "pierwsze_wykrycie": "2026-10-30",
+   "adres": null,
+   "miasto": "Sosnowiec",
+   "dzielnica": null,
+   "cena_wywolawcza": 171603,
+   "metraz": 40.74,
+   "pokoje": 2,
+   "pietro": "2",
+   "data_licytacji": "2026-10-30",
+   "wadium": 17160,
+   "typ_postepowania": "przetarg",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": false,
+   "notatka": "4212 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
+   "cena_za_m2": 4212
+  },
+  {
    "id": "336f823821cc8309",
    "zrodlo": "przetargi.adradar.pl",
    "zrodla_dodatkowe": [],
@@ -245,6 +467,43 @@
    "niekompletna": false,
    "opis": "druga licytacja w trybie elektronicznym nieruchomości: ***SPÓŁDZIELCZY LOKAL MIESZKALNY*** Spółdzielcze własnościowe prawo do lokalu położonego w: 40-749 Katowice, ul. Karola Bohdanowicza ***/***, dla którego Sąd Rejonowy Katowice-Wschód w Katowicach Wydział XI Ksiąg Wieczystych prowadzi księgę wieczystą o numerze ***. ***Adres nieruchomości*** ul. Karola Bohdanowicza ***/***, 40-749 Katowice, poczta Katowice ***Przeznaczenie gospodarcze nieruchomości*** Teren zabudowy mieszkaniowej wielorod...",
    "cena_za_m2": 4800
+  },
+  {
+   "id": "6b5078f3dc3b7d04",
+   "zrodlo": "listaprzetargow.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://listaprzetargow.pl/oferty/545427-przetarg-mieszkanie-katowice-slaskie",
+   "pierwsze_wykrycie": "2026-10-30",
+   "adres": null,
+   "miasto": "Sosnowiec",
+   "dzielnica": null,
+   "cena_wywolawcza": 104444,
+   "metraz": 17.76,
+   "pokoje": 1,
+   "pietro": "2",
+   "data_licytacji": "2026-10-30",
+   "wadium": 10444,
+   "typ_postepowania": "przetarg",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": false,
+   "notatka": "5881 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
+   "cena_za_m2": 5881
   }
  ]
 }
