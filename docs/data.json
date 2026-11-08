@@ -1,5 +1,5 @@
 {
- "wygenerowano": "2026-11-07T11:41:45+00:00",
+ "wygenerowano": "2026-11-08T11:54:18+00:00",
  "prog_podstawowy": 180000,
  "prog_perelki": 220000,
  "odrzucone_filtrem": 1,
@@ -7,7 +7,7 @@
   {
    "nazwa": "przetargi.adradar.pl",
    "ok": true,
-   "liczba": 4,
+   "liczba": 5,
    "uwaga": "Lista niefiltrowana (filtr 'mieszkania' przekierowuje na archiwum) — typ nieruchomości odsiewany po stronie skryptu. Bez płatnego dostępu portal pokazuje tylko część aktualnych ogłoszeń."
   },
   {
@@ -24,6 +24,80 @@
   }
  ],
  "oferty": [
+  {
+   "id": "3b95b5312dee9702",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Piekary+%C5%9Al%C4%85skie/licytacje_komornicze/18097298",
+   "pierwsze_wykrycie": "2026-11-08",
+   "adres": "Biskupa H.Bednorza",
+   "miasto": "Piekary Śląskie",
+   "dzielnica": null,
+   "cena_wywolawcza": 101175,
+   "metraz": 63.0,
+   "pokoje": 2,
+   "pietro": null,
+   "data_licytacji": "2026-11-18",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
+   },
+   "perelka": false,
+   "notatka": "1606 zł/m²; duży metraż",
+   "niekompletna": false,
+   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: ## LOKAL STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ Lokal mieszkalny usytuowany jest na drugim piętrze budynku mieszkalnego wielorodzinnego, o trzech kondygnacjach nadziemnych, poddaszu oraz jednej kondygnacji podziemnej. Składa się z dwóch pokoi, kuchni, przedpokoju, łazienki oraz WC. Układ funkcjonalny lokalu jest przechodni (amfiladowy), a jego ekspozycja jest dwustronna, wschodnio-zachodnia. Powierzchnia użytkowa lokalu wynosi 62,84 m². Mies...",
+   "cena_za_m2": 1606
+  },
+  {
+   "id": "5fd42dc2d724e5a8",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Piekary+%C5%9Al%C4%85skie/licytacje_komornicze/18097326",
+   "pierwsze_wykrycie": "2026-11-08",
+   "adres": null,
+   "miasto": "Piekary Śląskie",
+   "dzielnica": null,
+   "cena_wywolawcza": 131250,
+   "metraz": 47.0,
+   "pokoje": 2,
+   "pietro": null,
+   "data_licytacji": "2026-11-18",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": false,
+   "notatka": "2793 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: ## SPÓŁDZIELCZE WŁASNOŚCIOWE PRAWO DO LOKALU Lokal jest położony na drugim piętrze budynku mieszkalnego wielorodzinnego o 5 kondygnacjach nadziemnych i o 1 kondygnacji podziemnej. Składa się z dwóch pokoi, kuchni, łazienki z WC i przedpokoju. Układ mieszkania rozkładowy, ekspozycja dwustronna na osi północ-południe. Powierzchnia użytkowa lokalu mieszkalnego wynosi 46,70 m2. Suma oszacowania nieruchomości nr *** wynosi 175 000,00 zł (s...",
+   "cena_za_m2": 2793
+  },
   {
    "id": "dda9103645f453c8",
    "zrodlo": "przetargi.adradar.pl",
@@ -60,43 +134,6 @@
    "niekompletna": false,
    "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: LOKAL MIESZKALNY mieszkanie w bloku ***Adres nieruchomości*** Rewolucjonistów ***/***, 42-500 Będzin, poczta Będzin ***Przeznaczenie gospodarcze nieruchomości*** Nieruchomości lokalowe mieszkalne ***Dla nieruchomości prowadzona jest dokumentacja*** księga wieczysta (NKW) o numerze ***, Sąd Rejonowy w Będzinie V Wydział Ksiąg Wieczystych ***",
    "cena_za_m2": 3489
-  },
-  {
-   "id": "bfacdbcde4d3f8b1",
-   "zrodlo": "przetargi.adradar.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Bykowina/licytacje_komornicze/17887976",
-   "pierwsze_wykrycie": "2026-11-07",
-   "adres": "ul. Brygadzistów",
-   "miasto": "Ruda Śląska",
-   "dzielnica": "Bykowina",
-   "cena_wywolawcza": 120750,
-   "metraz": 34.0,
-   "pokoje": 1,
-   "pietro": null,
-   "data_licytacji": "2026-11-19",
-   "wadium": null,
-   "typ_postepowania": "licytacja komornicza",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
-   },
-   "perelka": false,
-   "notatka": "3551 zł/m²",
-   "niekompletna": false,
-   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: LOKAL MIESZKALNY STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ POŁOŻONY: 41-717 RUDA ŚLĄSKA, UL. BRYGADZISTÓW ***/***. Lokal mieszkalny stanowiący odrębną nieruchomość położony: 41-717 Ruda Śląska, ul. Brygadzistów ***/*** położony: 41-717 Ruda Śląska, ul. Brygadzistów ***/***, dla którego Sąd Rejonowy w Rudzie Śląskiej V Wydział Ksiąg Wieczystych prowadzi księgę wieczystą o numerze KW ***. Lokal mieszkalny stanowiący odrębną nieruchomość, położony...",
-   "cena_za_m2": 3551
   },
   {
    "id": "6b0c6d2ffc410972",
