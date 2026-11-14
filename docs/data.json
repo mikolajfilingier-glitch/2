@@ -1,5 +1,5 @@
 {
- "wygenerowano": "2026-11-13T13:02:50+00:00",
+ "wygenerowano": "2026-11-14T12:07:30+00:00",
  "prog_podstawowy": 180000,
  "prog_perelki": 220000,
  "odrzucone_filtrem": 0,
@@ -7,7 +7,7 @@
   {
    "nazwa": "przetargi.adradar.pl",
    "ok": true,
-   "liczba": 3,
+   "liczba": 2,
    "uwaga": "Lista niefiltrowana (filtr 'mieszkania' przekierowuje na archiwum) — typ nieruchomości odsiewany po stronie skryptu. Bez płatnego dostępu portal pokazuje tylko część aktualnych ogłoszeń."
   },
   {
@@ -802,43 +802,6 @@
    "niekompletna": true,
    "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
    "cena_za_m2": 2834
-  },
-  {
-   "id": "546f907f70d33e5b",
-   "zrodlo": "przetargi.adradar.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Miechowice/licytacje_komornicze/17961584",
-   "pierwsze_wykrycie": "2026-11-09",
-   "adres": "Reptowska",
-   "miasto": "Bytom",
-   "dzielnica": "Miechowice",
-   "cena_wywolawcza": 83250,
-   "metraz": 28.0,
-   "pokoje": 1,
-   "pietro": null,
-   "data_licytacji": "2026-11-13",
-   "wadium": null,
-   "typ_postepowania": "licytacja komornicza",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
-   },
-   "perelka": false,
-   "notatka": "2973 zł/m²",
-   "niekompletna": false,
-   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: SPÓŁDZIELCZE WŁASNOŚCIOWE PRAWO DO LOKALU MIESZKALNEGO Licytacji podlega spółdzielcze własnościowe prawo do lokalu mieszkalnego położonego na drugim piętrze (trzeciej kondygnacji) i posiada powierzchnię użytkową 28,10 m2. Lokal mieszkalny składa się z pokoju, łazienki i przedpokoju. Wejście do mieszkania prowadzi do przedpokoju, z którego dostępny jest pokój i łazienka. W mieszkaniu brak kuchni, jedynie do przedpokoju doprowadzona jes...",
-   "cena_za_m2": 2973
   },
   {
    "id": "b745a17efe0c3fc5",
