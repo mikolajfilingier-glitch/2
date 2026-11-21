@@ -1,19 +1,19 @@
 {
- "wygenerowano": "2026-11-20T13:59:19+00:00",
+ "wygenerowano": "2026-11-21T13:26:28+00:00",
  "prog_podstawowy": 180000,
  "prog_perelki": 220000,
- "odrzucone_filtrem": 5,
+ "odrzucone_filtrem": 4,
  "zrodla": [
   {
    "nazwa": "przetargi.adradar.pl",
    "ok": true,
-   "liczba": 9,
+   "liczba": 5,
    "uwaga": "Lista niefiltrowana (filtr 'mieszkania' przekierowuje na archiwum) — typ nieruchomości odsiewany po stronie skryptu. Bez płatnego dostępu portal pokazuje tylko część aktualnych ogłoszeń."
   },
   {
    "nazwa": "listaprzetargow.pl",
    "ok": true,
-   "liczba": 24,
+   "liczba": 25,
    "uwaga": "Dokładna ulica i kontakt są ukryte za płatnym dostępem portalu — widoczne jest tylko miasto, czasem dzielnica."
   },
   {
@@ -99,6 +99,43 @@
    "cena_za_m2": 1687
   },
   {
+   "id": "766edab7fed9efe5",
+   "zrodlo": "listaprzetargow.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://listaprzetargow.pl/oferty/550486-przetarg-mieszkanie-zabrze-slaskie",
+   "pierwsze_wykrycie": "2026-11-21",
+   "adres": null,
+   "miasto": "Sosnowiec",
+   "dzielnica": null,
+   "cena_wywolawcza": 70000,
+   "metraz": 41.0,
+   "pokoje": 1,
+   "pietro": "parter",
+   "data_licytacji": "2026-12-02",
+   "wadium": 7000,
+   "typ_postepowania": "przetarg",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": false,
+   "notatka": "1707 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
+   "cena_za_m2": 1707
+  },
+  {
    "id": "1888dd821374897d",
    "zrodlo": "listaprzetargow.pl",
    "zrodla_dodatkowe": [],
@@ -134,43 +171,6 @@
    "niekompletna": true,
    "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
    "cena_za_m2": 1753
-  },
-  {
-   "id": "f3ab98190232589a",
-   "zrodlo": "przetargi.adradar.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Bytom/licytacje_komornicze/18109616",
-   "pierwsze_wykrycie": "2026-11-19",
-   "adres": "Wyzwolenia",
-   "miasto": "Bytom",
-   "dzielnica": null,
-   "cena_wywolawcza": 96075,
-   "metraz": 52.0,
-   "pokoje": 3,
-   "pietro": null,
-   "data_licytacji": "2026-11-20",
-   "wadium": null,
-   "typ_postepowania": "licytacja komornicza",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": true,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
-   },
-   "perelka": false,
-   "notatka": "1848 zł/m²",
-   "niekompletna": false,
-   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: ***UDZIAŁ W WYSOKOŚCI 1/2 W LOKALU MIESZKALNYM POŁOŻONYM PRZY UL. WYZWOLENIA ***/*** W BYTOMIU, DLA KTÓREGO SĄD REJONOWY W BYTOMIU PROWADZI KSIĘGĘ WIECZYSTĄ NR *** *** Udział w wysokości 1/2 w lokalu mieszkalnym. Lokal mieszkalny składający się z 3 pokoi, balkonu, kuchni, łazienki z wc, przedpokoju, o łącznej powierzchni 52,14 m2, do lokalu przynależy piwnica o wielkości 1,92 m2. Lokal wyposażony w instalacje wod.-kan., elektryczną, o...",
-   "cena_za_m2": 1848
   },
   {
    "id": "304481640e9e52fc",
@@ -693,43 +693,6 @@
    "cena_za_m2": 2454
   },
   {
-   "id": "0682dc65da7d4002",
-   "zrodlo": "przetargi.adradar.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/%C5%9Ar%C3%B3dmie%C5%9Bcie/licytacje_komornicze/18002533",
-   "pierwsze_wykrycie": "2026-11-20",
-   "adres": null,
-   "miasto": "Bytom",
-   "dzielnica": "Śródmieście",
-   "cena_wywolawcza": 122100,
-   "metraz": 49.0,
-   "pokoje": 2,
-   "pietro": null,
-   "data_licytacji": "2026-11-27",
-   "wadium": null,
-   "typ_postepowania": "licytacja komornicza",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
-   },
-   "perelka": false,
-   "notatka": "2492 zł/m²; brak ulicy w ogłoszeniu",
-   "niekompletna": true,
-   "opis": "pierwsza licytacja nieruchomości: ***LOKAL MIESZKALNY*** Lokal mieszkalny nr ***\\***\\*** położony w Bytomiu przy ul. Gwareckiej ***\\***\\*** składający się z: -2 pokoi; -1 przedpokoju; -1 kuchni; -1 łazienki; -1 piwnicy (pomieszczenie przynależne); o powierzchni użytkowej wraz z powierzchnią pomieszczeń przynależnych wynoszącą 49,0400 m2. ***Adres nieruchomości*** Gwarecka ***\\***\\***/\\***\\***, 41-902 Bytom, poczta Bytom ***Przeznaczenie gospodarcze nieruchomości*** Nieruchomości lokalowe mie...",
-   "cena_za_m2": 2492
-  },
-  {
    "id": "8169d135b4abebdf",
    "zrodlo": "listaprzetargow.pl",
    "zrodla_dodatkowe": [],
@@ -987,43 +950,6 @@
    "niekompletna": true,
    "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
    "cena_za_m2": 3039
-  },
-  {
-   "id": "af2a38fa192a792b",
-   "zrodlo": "listaprzetargow.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://listaprzetargow.pl/oferty/552198-przetarg-mieszkanie-zabrze-slaskie",
-   "pierwsze_wykrycie": "2026-11-09",
-   "adres": null,
-   "miasto": "Sosnowiec",
-   "dzielnica": null,
-   "cena_wywolawcza": 165000,
-   "metraz": 37.99,
-   "pokoje": 2,
-   "pietro": "parter",
-   "data_licytacji": "2026-11-20",
-   "wadium": 7000,
-   "typ_postepowania": "przetarg",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
-   },
-   "perelka": false,
-   "notatka": "4343 zł/m²; brak ulicy w ogłoszeniu",
-   "niekompletna": true,
-   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
-   "cena_za_m2": 4343
   }
  ]
 }
