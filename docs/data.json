@@ -1,8 +1,8 @@
 {
- "wygenerowano": "2026-11-23T15:55:28+00:00",
+ "wygenerowano": "2026-11-24T15:47:49+00:00",
  "prog_podstawowy": 180000,
  "prog_perelki": 220000,
- "odrzucone_filtrem": 4,
+ "odrzucone_filtrem": 17,
  "zrodla": [
   {
    "nazwa": "przetargi.adradar.pl",
@@ -13,7 +13,7 @@
   {
    "nazwa": "listaprzetargow.pl",
    "ok": true,
-   "liczba": 25,
+   "liczba": 49,
    "uwaga": "Dokładna ulica i kontakt są ukryte za płatnym dostępem portalu — widoczne jest tylko miasto, czasem dzielnica."
   },
   {
@@ -321,6 +321,43 @@
    "cena_za_m2": 2073
   },
   {
+   "id": "7e2231fc69b0b505",
+   "zrodlo": "listaprzetargow.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://listaprzetargow.pl/oferty/555638-przetarg-mieszkanie-katowice-slaskie",
+   "pierwsze_wykrycie": "2026-11-24",
+   "adres": null,
+   "miasto": "Gliwice",
+   "dzielnica": null,
+   "cena_wywolawcza": 91700,
+   "metraz": 43.68,
+   "pokoje": 2,
+   "pietro": "parter",
+   "data_licytacji": "2026-12-11",
+   "wadium": 9170,
+   "typ_postepowania": "przetarg",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": false,
+   "notatka": "2099 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
+   "cena_za_m2": 2099
+  },
+  {
    "id": "c5d32b86f4e72d98",
    "zrodlo": "listaprzetargow.pl",
    "zrodla_dodatkowe": [],
@@ -430,6 +467,43 @@
    "niekompletna": true,
    "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
    "cena_za_m2": 2199
+  },
+  {
+   "id": "cc9b135f315337a9",
+   "zrodlo": "listaprzetargow.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://listaprzetargow.pl/oferty/555637-przetarg-mieszkanie-katowice-slaskie",
+   "pierwsze_wykrycie": "2026-11-24",
+   "adres": null,
+   "miasto": "Gliwice",
+   "dzielnica": null,
+   "cena_wywolawcza": 76650,
+   "metraz": 34.8,
+   "pokoje": 1,
+   "pietro": "parter",
+   "data_licytacji": "2026-12-11",
+   "wadium": 7665,
+   "typ_postepowania": "przetarg",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": false,
+   "notatka": "2203 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
+   "cena_za_m2": 2203
   },
   {
    "id": "414ba2c83958e391",
@@ -767,6 +841,43 @@
    "cena_za_m2": 2520
   },
   {
+   "id": "9139a6f30707e695",
+   "zrodlo": "listaprzetargow.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://listaprzetargow.pl/oferty/555639-przetarg-mieszkanie-katowice-slaskie",
+   "pierwsze_wykrycie": "2026-11-24",
+   "adres": null,
+   "miasto": "Gliwice",
+   "dzielnica": null,
+   "cena_wywolawcza": 109550,
+   "metraz": 40.88,
+   "pokoje": 1,
+   "pietro": "2",
+   "data_licytacji": "2026-12-11",
+   "wadium": 10955,
+   "typ_postepowania": "przetarg",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": false,
+   "notatka": "2680 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
+   "cena_za_m2": 2680
+  },
+  {
    "id": "eadc00c2471b714a",
    "zrodlo": "listaprzetargow.pl",
    "zrodla_dodatkowe": [],
@@ -839,6 +950,43 @@
    "niekompletna": true,
    "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
    "cena_za_m2": 2717
+  },
+  {
+   "id": "da8d036554cbbf13",
+   "zrodlo": "listaprzetargow.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://listaprzetargow.pl/oferty/554294-przetarg-mieszkanie-katowice-slaskie",
+   "pierwsze_wykrycie": "2026-11-24",
+   "adres": null,
+   "miasto": "Gliwice",
+   "dzielnica": null,
+   "cena_wywolawcza": 102957,
+   "metraz": 37.56,
+   "pokoje": 2,
+   "pietro": "1",
+   "data_licytacji": "2026-12-09",
+   "wadium": 10296,
+   "typ_postepowania": "przetarg",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": false,
+   "notatka": "2741 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
+   "cena_za_m2": 2741
   },
   {
    "id": "1aeb398bf27dea58",
@@ -950,6 +1098,265 @@
    "niekompletna": true,
    "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
    "cena_za_m2": 3039
+  },
+  {
+   "id": "53c51679f0e01f0d",
+   "zrodlo": "listaprzetargow.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://listaprzetargow.pl/oferty/555636-przetarg-mieszkanie-katowice-slaskie",
+   "pierwsze_wykrycie": "2026-11-24",
+   "adres": null,
+   "miasto": "Gliwice",
+   "dzielnica": null,
+   "cena_wywolawcza": 119700,
+   "metraz": 35.99,
+   "pokoje": 1,
+   "pietro": "2",
+   "data_licytacji": "2026-12-11",
+   "wadium": 11970,
+   "typ_postepowania": "przetarg",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": false,
+   "notatka": "3326 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
+   "cena_za_m2": 3326
+  },
+  {
+   "id": "356f6147ec66638b",
+   "zrodlo": "listaprzetargow.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://listaprzetargow.pl/oferty/554283-przetarg-mieszkanie-katowice-slaskie",
+   "pierwsze_wykrycie": "2026-11-24",
+   "adres": null,
+   "miasto": "Gliwice",
+   "dzielnica": null,
+   "cena_wywolawcza": 130792,
+   "metraz": 33.7,
+   "pokoje": 1,
+   "pietro": "2",
+   "data_licytacji": "2026-12-09",
+   "wadium": 13079,
+   "typ_postepowania": "przetarg",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": false,
+   "notatka": "3881 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
+   "cena_za_m2": 3881
+  },
+  {
+   "id": "f21d2e6236c7acc3",
+   "zrodlo": "listaprzetargow.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://listaprzetargow.pl/oferty/554293-przetarg-mieszkanie-katowice-slaskie",
+   "pierwsze_wykrycie": "2026-11-24",
+   "adres": null,
+   "miasto": "Gliwice",
+   "dzielnica": null,
+   "cena_wywolawcza": 163400,
+   "metraz": 41.5,
+   "pokoje": 1,
+   "pietro": "parter",
+   "data_licytacji": "2026-12-09",
+   "wadium": 16340,
+   "typ_postepowania": "przetarg",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": false,
+   "notatka": "3937 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
+   "cena_za_m2": 3937
+  },
+  {
+   "id": "88a8bf13d76165cf",
+   "zrodlo": "listaprzetargow.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://listaprzetargow.pl/oferty/554291-przetarg-mieszkanie-katowice-slaskie",
+   "pierwsze_wykrycie": "2026-11-24",
+   "adres": null,
+   "miasto": "Gliwice",
+   "dzielnica": null,
+   "cena_wywolawcza": 155043,
+   "metraz": 36.9,
+   "pokoje": 1,
+   "pietro": "1",
+   "data_licytacji": "2026-12-09",
+   "wadium": 15504,
+   "typ_postepowania": "przetarg",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": false,
+   "notatka": "4202 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
+   "cena_za_m2": 4202
+  },
+  {
+   "id": "3067034b262d9db6",
+   "zrodlo": "listaprzetargow.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://listaprzetargow.pl/oferty/554290-przetarg-mieszkanie-katowice-slaskie",
+   "pierwsze_wykrycie": "2026-11-24",
+   "adres": null,
+   "miasto": "Gliwice",
+   "dzielnica": null,
+   "cena_wywolawcza": 171603,
+   "metraz": 40.74,
+   "pokoje": 2,
+   "pietro": "2",
+   "data_licytacji": "2026-12-09",
+   "wadium": 17160,
+   "typ_postepowania": "przetarg",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": false,
+   "notatka": "4212 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
+   "cena_za_m2": 4212
+  },
+  {
+   "id": "db6b05f27359015f",
+   "zrodlo": "listaprzetargow.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://listaprzetargow.pl/oferty/554052-przetarg-mieszkanie-katowice-slaskie",
+   "pierwsze_wykrycie": "2026-11-24",
+   "adres": null,
+   "miasto": "Gliwice",
+   "dzielnica": null,
+   "cena_wywolawcza": 157938,
+   "metraz": 31.72,
+   "pokoje": null,
+   "pietro": null,
+   "data_licytacji": "2026-11-25",
+   "wadium": 8000,
+   "typ_postepowania": "przetarg",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": false,
+   "notatka": "4979 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
+   "cena_za_m2": 4979
+  },
+  {
+   "id": "128216baef188b48",
+   "zrodlo": "listaprzetargow.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://listaprzetargow.pl/oferty/554292-przetarg-mieszkanie-katowice-slaskie",
+   "pierwsze_wykrycie": "2026-11-24",
+   "adres": null,
+   "miasto": "Gliwice",
+   "dzielnica": null,
+   "cena_wywolawcza": 104444,
+   "metraz": 17.76,
+   "pokoje": 1,
+   "pietro": "2",
+   "data_licytacji": "2026-12-09",
+   "wadium": 10444,
+   "typ_postepowania": "przetarg",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": false,
+   "notatka": "5881 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
+   "cena_za_m2": 5881
   }
  ]
 }
