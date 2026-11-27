@@ -1,5 +1,5 @@
 {
- "wygenerowano": "2026-11-26T15:04:50+00:00",
+ "wygenerowano": "2026-11-27T14:59:27+00:00",
  "prog_podstawowy": 180000,
  "prog_perelki": 220000,
  "odrzucone_filtrem": 20,
@@ -7,7 +7,7 @@
   {
    "nazwa": "przetargi.adradar.pl",
    "ok": true,
-   "liczba": 10,
+   "liczba": 13,
    "uwaga": "Lista niefiltrowana (filtr 'mieszkania' przekierowuje na archiwum) — typ nieruchomości odsiewany po stronie skryptu. Bez płatnego dostępu portal pokazuje tylko część aktualnych ogłoszeń."
   },
   {
@@ -24,43 +24,6 @@
   }
  ],
  "oferty": [
-  {
-   "id": "dd816ece8435e743",
-   "zrodlo": "przetargi.adradar.pl",
-   "zrodla_dodatkowe": [],
-   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Miechowice/licytacje_komornicze/17948587",
-   "pierwsze_wykrycie": "2026-11-20",
-   "adres": "Francuska",
-   "miasto": "Bytom",
-   "dzielnica": "Miechowice",
-   "cena_wywolawcza": 105333,
-   "metraz": 41.0,
-   "pokoje": 2,
-   "pietro": null,
-   "data_licytacji": "2026-11-26",
-   "wadium": null,
-   "typ_postepowania": "licytacja komornicza",
-   "stan_prawny_uwagi": null,
-   "ogrzewanie": null,
-   "media": {
-    "woda": null,
-    "prad": null,
-    "gaz": null
-   },
-   "flaga_budynek": {
-    "poziom": "zielona",
-    "powod": "budynek ocieplony"
-   },
-   "flaga_okolica": {
-    "poziom": "brak",
-    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
-   },
-   "perelka": false,
-   "notatka": "2569 zł/m²",
-   "niekompletna": false,
-   "opis": "druga licytacja w trybie elektronicznym nieruchomości: LOKAL MIESZKALNY STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ Lokal mieszkalny stanowiący odrębną nieruchomość położony w Bytomiu przy ul. Francuskiej ***/***. Budynek 4 piętrowy, wybudowany w 1972 roku. Budynek ocieplony, klatka schodowa nie sprawia dobrego wrażenia, stan techniczny budynku średni. Mieszkanie usytuowane jest na czwartym piętrze i składa się z 2 pokoi, kuchni, łazienki i przedpokoju. Powierzchnia lokalu mieszkalnego wynosi 37,80 m2. ...",
-   "cena_za_m2": 2569
-  },
   {
    "id": "3545a47cfbd4d006",
    "zrodlo": "przetargi.adradar.pl",
@@ -915,6 +878,43 @@
    "cena_za_m2": 2520
   },
   {
+   "id": "8d64e3a8d870d486",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Piekary+%C5%9Al%C4%85skie/licytacje_komornicze/18002565",
+   "pierwsze_wykrycie": "2026-11-27",
+   "adres": "Szmaragdowa",
+   "miasto": "Piekary Śląskie",
+   "dzielnica": null,
+   "cena_wywolawcza": 129825,
+   "metraz": 49.0,
+   "pokoje": 2,
+   "pietro": null,
+   "data_licytacji": "2026-12-04",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
+   },
+   "perelka": false,
+   "notatka": "2649 zł/m²",
+   "niekompletna": false,
+   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: LOKAL STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ W PIEKARACH ŚLĄSKICH Lokal mieszkalny stanowiący odrębną nieruchomość położony pod adresem ul. Szmaragdowa ***/***/***, miejscowość Piekary Śląskie, gmina Piekary Śląskie, powiat Piekary Śląskie, województwo śląskie wraz z udziałem w nieruchomości wspólnej, którą stanowi grunt oraz część budynku i urządzenia, które nie służą wyłącznie do użytku właścicieli lokali wynoszący 280/100000 części. Dla p...",
+   "cena_za_m2": 2649
+  },
+  {
    "id": "9139a6f30707e695",
    "zrodlo": "listaprzetargow.pl",
    "zrodla_dodatkowe": [],
@@ -1216,9 +1216,9 @@
    "zrodla_dodatkowe": [],
    "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Nowy+Bytom/licytacje_komornicze/18048816",
    "pierwsze_wykrycie": "2026-11-25",
-   "adres": "SZYMAŁY",
-   "miasto": "Ruda Śląska",
-   "dzielnica": "Nowy Bytom",
+   "adres": null,
+   "miasto": "Bytom",
+   "dzielnica": null,
    "cena_wywolawcza": 150000,
    "metraz": 42.0,
    "pokoje": 2,
@@ -1239,11 +1239,11 @@
    },
    "flaga_okolica": {
     "poziom": "brak",
-    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
    },
    "perelka": false,
-   "notatka": "3571 zł/m²",
-   "niekompletna": false,
+   "notatka": "3571 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
    "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: LOKAL MIESZKALNY NR *** STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ WRAZ Z UDZIAŁEM W CZĘŚCI WSPÓLNEJ LOKAL MIESZKALNY ***Adres nieruchomości*** SZYMAŁY ***, 41-709 RUDA ŚLĄSKA, poczta Ruda Śląska ***Przeznaczenie gospodarcze nieruchomości*** Tereny mieszkaniowe ***Dla nieruchomości prowadzona jest dokumentacja*** księga wieczysta (NKW) o numerze ***, Sąd Rejonowy w Rudzie Śląskiej V Wydział Ksiąg Wieczystych ***",
    "cena_za_m2": 3571
   },
@@ -1359,6 +1359,80 @@
    "cena_za_m2": 3937
   },
   {
+   "id": "3ecc55812f307da2",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Sosnowiec/licytacje_komornicze/18109615",
+   "pierwsze_wykrycie": "2026-11-27",
+   "adres": null,
+   "miasto": "Sosnowiec",
+   "dzielnica": null,
+   "cena_wywolawcza": 177750,
+   "metraz": 44.0,
+   "pokoje": 3,
+   "pietro": null,
+   "data_licytacji": "2026-12-03",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie podaje ulicy, więc okolicy nie da się sprawdzić."
+   },
+   "perelka": false,
+   "notatka": "4040 zł/m²; brak ulicy w ogłoszeniu",
+   "niekompletna": true,
+   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: *** *** ***Adres nieruchomości*** ul. marsz. Józefa Piłsudskiego ***/***, 41-200 Sosnowiec, poczta Sosnowiec ***Przeznaczenie gospodarcze nieruchomości*** Tereny mieszkaniowe ***Dla nieruchomości prowadzona jest dokumentacja*** księga wieczysta (NKW) o numerze ***, Sąd Rejonowy w Sosnowcu VI Wydział Ksiąg Wieczystych ***",
+   "cena_za_m2": 4040
+  },
+  {
+   "id": "a59416c4c9874499",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Ruda+%C5%9Al%C4%85ska/licytacje_komornicze/18078553",
+   "pierwsze_wykrycie": "2026-11-27",
+   "adres": "BZÓW",
+   "miasto": "Ruda Śląska",
+   "dzielnica": null,
+   "cena_wywolawcza": 168000,
+   "metraz": 40.0,
+   "pokoje": 2,
+   "pietro": null,
+   "data_licytacji": "2026-12-03",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
+   },
+   "perelka": false,
+   "notatka": "4200 zł/m²",
+   "niekompletna": false,
+   "opis": "pierwsza licytacja nieruchomości: LOKAL MIESZKALNY NR 2 STANOWIĄCY ODRĘBNĄ NIERUCHOMOŚĆ WRAZ Z UDZIAŁEM W CZĘŚCI WSPÓLNEJ ***LOKAL MIESZKALNY*** ***Adres nieruchomości*** BZÓW ***, 41-700 RUDA ŚLĄSKA, poczta M. Ruda Śląska ***Przeznaczenie gospodarcze nieruchomości*** Tereny mieszkaniowe ***Dla nieruchomości prowadzona jest dokumentacja*** księga wieczysta (NKW) o numerze ***, Sąd Rejonowy w Rudzie Śląskiej V Wydział Ksiąg Wieczystych ***Dłużnik*** *** ***",
+   "cena_za_m2": 4200
+  },
+  {
    "id": "88a8bf13d76165cf",
    "zrodlo": "listaprzetargow.pl",
    "zrodla_dodatkowe": [],
@@ -1431,6 +1505,43 @@
    "niekompletna": true,
    "opis": "Pokaż ofertę Po odblokowaniu zobaczysz dokładny adres, link do strony oferenta oraz pełną treść ogłoszenia.",
    "cena_za_m2": 4212
+  },
+  {
+   "id": "aaee8062b37e003d",
+   "zrodlo": "przetargi.adradar.pl",
+   "zrodla_dodatkowe": [],
+   "link": "https://przetargi.adradar.pl/przetarg/mieszkania/Ligota-Panewniki/licytacje_komornicze/18077875",
+   "pierwsze_wykrycie": "2026-11-27",
+   "adres": "LIGOCKA",
+   "miasto": "Katowice",
+   "dzielnica": "Ligota-Panewniki",
+   "cena_wywolawcza": 139637,
+   "metraz": 26.0,
+   "pokoje": 1,
+   "pietro": null,
+   "data_licytacji": "2026-12-04",
+   "wadium": null,
+   "typ_postepowania": "licytacja komornicza",
+   "stan_prawny_uwagi": null,
+   "ogrzewanie": null,
+   "media": {
+    "woda": null,
+    "prad": null,
+    "gaz": null
+   },
+   "flaga_budynek": {
+    "poziom": "brak",
+    "powod": "Ogłoszenie nie zawiera informacji o stanie budynku."
+   },
+   "flaga_okolica": {
+    "poziom": "brak",
+    "powod": "Adres znany — sprawdź okolicę na mapie (przycisk na karcie)."
+   },
+   "perelka": false,
+   "notatka": "5371 zł/m²",
+   "niekompletna": false,
+   "opis": "pierwsza licytacja w trybie elektronicznym nieruchomości: ***SPÓŁDZIELCZE WŁASNOŚCIOWE PRAWO DO LOKALU MIESZKALNEGO*** Przedmiotem licytacji jest zamieszkały przez dłużnika lokal mieszkalny nr ***, położony w województwie śląskim, powiecie m. Katowice, gminie m. Katowice, miejscowości Katowice, obrębie 0003, Dz. Ligota, przy ul. Ligockiej ***, na IX kondygnacji nadziemnej (8 piętrze) budynku mieszkalnego, wielorodzinnego, objęty ograniczonym prawem rzeczowym, tj. spółdzielczym prawem własnoś...",
+   "cena_za_m2": 5371
   },
   {
    "id": "128216baef188b48",
